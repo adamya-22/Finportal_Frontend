@@ -3,6 +3,7 @@ import React from 'react'
 const Homepage = () => {
   return (
     <>
+    <body class="home page-template-default page page-id-6 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-6">
     <div data-elementor-type="wp-page" data-elementor-id="6" class="elementor elementor-6">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-f0dd4c4 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="f0dd4c4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
@@ -802,6 +803,7 @@ const Homepage = () => {
 							</div>
 		</section>
 							</div>
+    </body>
     </>
   )
 }
