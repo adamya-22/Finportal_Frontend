@@ -72,29 +72,29 @@ const Navbar = () => {
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_6_1_64e45de704ab4"  data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-angle-down&quot;&gt;&lt;/i&gt;"><button class="jkit-hamburger-menu"><i aria-hidden="true" class="fas fa-bars"></i></button>
         <div class="jkit-menu-wrapper"><div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-109"><a href="index.html" aria-current="page">Home</a></li>
-<li id="menu-item-6131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6131"><a href="about-us/index.html">About Us</a></li>
 <li id="menu-item-6132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6132"><a href="services/index.html">Services</a></li>
-<li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114"><a href="#">Cases</a>
+<li id="menu-item-6131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6131"><a href="about-us/index.html">Contact Us</a></li>
+{/* <li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114"><a href="#">Cases</a>
 <ul class="sub-menu">
 	<li id="menu-item-6133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6133"><a href="cases/index.html">Cases</a></li>
 	<li id="menu-item-6134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6134"><a href="case-details/index.html">Case Details</a></li>
 </ul>
-</li>
-<li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-115"><a href="#">Pages</a>
+</li> */}
+{/* <li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-115"><a href="#">Pages</a>
 <ul class="sub-menu">
 	<li id="menu-item-6135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6135"><a href="our-team/index.html">Our Team</a></li>
 	<li id="menu-item-6136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6136"><a href="pricing/index.html">Pricing</a></li>
 	<li id="menu-item-6137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6137"><a href="faq/index.html">FAQ</a></li>
 	<li id="menu-item-6138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6138"><a href="404-page/index.html">404 Page</a></li>
 </ul>
-</li>
-<li id="menu-item-6140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6140"><a href="#">Blog</a>
+</li> */}
+{/* <li id="menu-item-6140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6140"><a href="#">Blog</a>
 <ul class="sub-menu">
 	<li id="menu-item-6141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6141"><a href="blog/index.html">Blog</a></li>
 	<li id="menu-item-6142" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-6142"><a href="2021/06/23/filing-payroll-taxes-electronically-makes-good-business-sense/index.html">Single Blog</a></li>
 </ul>
-</li>
-<li id="menu-item-6143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6143"><a href="contact-us/index.html">Contact</a></li>
+</li> */}
+{/* <li id="menu-item-6143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6143"><a href="contact-us/index.html">Contact</a></li> */}
 </ul></div>
             <div class="jkit-nav-identity-panel">
                 <div class="jkit-nav-site-title"><a href="https://templatekit.jegtheme.com/pajax" class="jkit-nav-logo"></a></div>
