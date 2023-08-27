@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/homepage.css'
 
 const Homepage = () => {
   return (
@@ -184,7 +185,22 @@ const Homepage = () => {
 			data-save-progress = "false"
 			data-form-type="contact_form"
 			data-stop-vertical-effect=""
-			></div>
+			>
+        <div  className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_5_64e45de72893c" >
+				<h3 className="heading-section-subtitle  style-color">SEND A MESSAGE</h3>
+        <div className="heading-section-title  display-inline-block">
+					<h2 className="heading-title">Request a call back</h2></div></div>
+          <div className="hp-form">
+            <form action="">
+              <input type="text" placeholder='Your Name'/>
+              <input type="text" placeholder='Your Email'/>
+              <input type="text" placeholder='Your Contact'/>
+              <textarea name="" placeholder='Message' id="" cols="30" rows="5"></textarea>
+              <input type="submit" />
+            </form>
+            
+          </div>
+      </div>
 
 					</div>
 		</div>
@@ -293,7 +309,7 @@ const Homepage = () => {
 				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d1c2cff elementor-invisible" data-id="d1c2cff" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;animation_delay&quot;:&quot;100&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-a173bae elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="a173bae" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
+				<div class="elementor-widget-container adc-1">
 															<img width="800" height="532" src="wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1024x681.jpg" class="attachment-large size-large wp-image-1581" alt="business people hands shake for business partnership success, Shake hand concept" decoding="async" loading="lazy" srcset="https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1024x681.jpg 1024w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-300x200.jpg 300w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-768x511.jpg 768w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1536x1022.jpg 1536w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-800x532.jpg 800w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-e1626231690663.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
 				</div>
 					</div>

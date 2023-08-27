@@ -1,0 +1,43 @@
+.adc-1{
+    display: flex;
+    width: 85%;
+    flex-direction: row-reverse;
+}
+.heading-section-title .heading-title{
+    font-family: var(--e-global-typography-secondary-font-family ), Sans-serif;
+    font-weight: 800 !important;
+    font-size: 40px !important;
+    line-height: var(--e-global-typography-secondary-line-height );
+    color: var(--e-global-color-primary );
+    margin-bottom: 40px;
+}
+
+.jeg_module_6_5_64e45de72893c .heading-section-subtitle{
+    /* margin-top: 40px; */
+    color: var(--e-global-color-8c1b78e ) !important;
+    font-family: var(--e-global-typography-4d255e8-font-family ), Sans-serif;
+    font-size: var(--e-global-typography-4d255e8-font-size );
+    font-weight: var(--e-global-typography-4d255e8-font-weight );
+    line-height: var(--e-global-typography-4d255e8-line-height );
+    letter-spacing: var(--e-global-typography-4d255e8-letter-spacing );
+    word-spacing: var(--e-global-typography-4d255e8-word-spacing );
+    margin: 40px 0px 20px 0px;
+}
+
+.hp-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.hp-form form input{
+    margin-bottom: 20px;
+    background-color: var(--e-global-color-79847bf );
+    border: none;
+
+}
+.hp-form form textarea{
+    margin-bottom: 50px;
+    background-color: var(--e-global-color-79847bf );
+    border: none;
+}

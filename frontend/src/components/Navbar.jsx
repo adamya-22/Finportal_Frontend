@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
@@ -71,15 +71,26 @@ const Navbar = () => {
 								<div class="elementor-element elementor-element-232813c elementor-widget elementor-widget-jkit_nav_menu" data-id="232813c" data-element_type="widget" data-widget_type="jkit_nav_menu.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_6_1_64e45de704ab4"  data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-angle-down&quot;&gt;&lt;/i&gt;"><button class="jkit-hamburger-menu"><i aria-hidden="true" class="fas fa-bars"></i></button>
-        <div class="jkit-menu-wrapper"><div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-109"><a href="index.html" aria-current="page">Home</a></li>
-<li id="menu-item-6132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6132"><a href="services/index.html">Services</a></li>
-<li id="menu-item-6131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6131"><a href="about-us/index.html">Contact Us</a></li>
-{/* <li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114"><a href="#">Cases</a>
+        <div class="jkit-menu-wrapper"><div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-109">
+			<NavLink to='/'>Home</NavLink>
+		</li>
+<li id="menu-item-6132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6132">
+	<NavLink to='/itr'>Services</NavLink>
+	</li>
+<li id="menu-item-6131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6131">
+		<NavLink to='/contact'>Contact Us</NavLink>
+	</li>
+<li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114">
+	<NavLink to='#'>Account</NavLink>
 <ul class="sub-menu">
-	<li id="menu-item-6133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6133"><a href="cases/index.html">Cases</a></li>
-	<li id="menu-item-6134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6134"><a href="case-details/index.html">Case Details</a></li>
+	<li id="menu-item-6133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6133">
+		<NavLink to='/login'>Login</NavLink>
+	</li>
+	<li id="menu-item-6134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6134">
+	<NavLink to='/signup'>Signup</NavLink>
+		</li>
 </ul>
-</li> */}
+</li>
 {/* <li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-115"><a href="#">Pages</a>
 <ul class="sub-menu">
 	<li id="menu-item-6135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6135"><a href="our-team/index.html">Our Team</a></li>
@@ -105,14 +116,14 @@ const Navbar = () => {
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a425b1b" data-id="a425b1b" data-element_type="column">
+				{/* <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a425b1b" data-id="a425b1b" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-ef22515 elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-jkit_button" data-id="ef22515" data-element_type="widget" data-widget_type="jkit_button.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_6_2_64e45de70c440" ><a href="#"  class="jkit-button-wrapper"  >Make Appointment</a></div>		</div>
 				</div>
 					</div>
-		</div>
+		</div> */}
 							</div>
 		</section>
 							</div>
