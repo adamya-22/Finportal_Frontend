@@ -25,7 +25,8 @@ const Homepage = () => {
 				</div>
 				<div class="elementor-element elementor-element-27ee765 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="27ee765" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. </p>						</div>
+							<p>Let our experts manage your
+tax and business compliances. </p>						</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-e3fb443 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e3fb443" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
@@ -34,7 +35,7 @@ const Homepage = () => {
 								<div class="elementor-element elementor-element-f88b4a1 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="f88b4a1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+			<a href="/itr" class="elementor-button-link elementor-button elementor-size-md" role="button">
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">Get Started</span>
 		</span>
@@ -44,22 +45,22 @@ const Homepage = () => {
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-933895e" data-id="933895e" data-element_type="column">
+				{/* <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-933895e" data-id="933895e" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-889c44a elementor-invisible elementor-widget elementor-widget-jkit_video_button" data-id="889c44a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;500&quot;}" data-widget_type="jkit_video_button.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-video-button jeg_module_6_3_64e45de7152b3"  data-autoplay="0" data-loop="0" data-controls="0" data-type="youtube" data-mute="0" data-start="0" data-end="0"><a href="https://www.youtube.com/watch?v=MLpWrANjFbI"  class="jkit-video-popup-btn"  ><span class="icon-position-before"><i aria-hidden="true" class="jki jki-play-circle-line"></i></span></a></div>		</div>
 				</div>
 					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-862caa4" data-id="862caa4" data-element_type="column">
+		</div> */}
+				{/* <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-862caa4" data-id="862caa4" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-da2c1fa elementor-invisible elementor-widget elementor-widget-heading" data-id="da2c1fa" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;600&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<h2 class="elementor-heading-title elementor-size-default"><a href="https://www.youtube.com/watch?v=MLpWrANjFbI">Watch Video</a></h2>		</div>
 				</div>
 					</div>
-		</div>
+		</div> */}
 							</div>
 		</section>
 					</div>
