@@ -1,0 +1,72 @@
+.sectionContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    /* Adjust padding as needed */
+}
+
+
+
+
+/* Style for the text content */
+.textContent {
+    flex: 1;
+    max-width: 50%;
+    padding: 0 30px;
+    /* Adjust padding as needed */
+}
+
+.textContent h2 {
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.textContent p {
+    font-size: 16px;
+}
+
+.formContainer {
+    display: flex;
+}
+
+.formContainer input {
+    flex: 1;
+    /* Expand to fill available space */
+    margin-right: 10px;
+    /* Add spacing between input and button */
+}
+
+.formContainer button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.about {
+    text-align: center;
+}
+
+.benifits {
+    font-size: 50px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    /* border: 1px solid #ccc; */
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+}

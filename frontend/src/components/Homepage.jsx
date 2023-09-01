@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import '../styles/homepage.css'
 
 const Homepage = () => {
@@ -73,7 +74,7 @@ tax and business compliances. </p>						</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-53c69da elementor-widget elementor-widget-jkit_heading" data-id="53c69da" data-element_type="widget" data-widget_type="jkit_heading.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_4_64e45de71b42a" ><h3 class="heading-section-subtitle  style-color">WELCOME TO PAJAX</h3><div class="heading-section-title  display-inline-block"><h2 class="heading-title">We Will Provide Best Tax Service For Your Business.</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div><div class="heading-section-description"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div></div>		</div>
+			<div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_4_64e45de71b42a" ><h3 class="heading-section-subtitle  style-color">WELCOME TO FINPORTAL</h3><div class="heading-section-title  display-inline-block"><h2 class="heading-title">We Will Provide Best Tax Service For Your Business.</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div><div class="heading-section-description"><p>Our team is here to assist you and answer any questions you may have. Connect with us and let’s start a conversation!</p></div></div>		</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-f19e876 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f19e876" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
@@ -157,7 +158,7 @@ tax and business compliances. </p>						</div>
 				</div>
 				<div class="elementor-element elementor-element-b5f147a elementor-widget elementor-widget-text-editor" data-id="b5f147a" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p>Founder Pajax</p>						</div>
+							<p>Founder Finportal</p>						</div>
 				</div>
 					</div>
 		</div>
@@ -212,6 +213,13 @@ tax and business compliances. </p>						</div>
 							</div>
 		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-3c7f415b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c7f415b" data-element_type="section">
+
+				<div class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading" data-id="833e261" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="jkit_heading.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd" ><div class="heading-section-title  display-inline-block"><h2 class="heading-title">Why You Shoud Trust Us</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div></div>		</div>
+				</div>
+
+
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2ff00d2 elementor-invisible" data-id="2ff00d2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -223,12 +231,9 @@ tax and business compliances. </p>						</div>
 				<i aria-hidden="true" class="jki jki-users-light"></i>				</span>
 			</div>
 						<div class="elementor-icon-box-content">
-				<h3 class="elementor-icon-box-title">
-					<span  >
-						Expert Advisor					</span>
-				</h3>
+				<h3 class="elementor-icon-box-title"><span>Experienced Team</span></h3>
 									<p class="elementor-icon-box-description">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula					</p>
+									We are proud to have assembled a team of highly experienced professionals who are dedicated to helping our clients maximize their tax savings.</p>
 							</div>
 		</div>
 				</div>
@@ -246,11 +251,9 @@ tax and business compliances. </p>						</div>
 			</div>
 						<div class="elementor-icon-box-content">
 				<h3 class="elementor-icon-box-title">
-					<span  >
-						Tax Consulting					</span>
+					<span  >Maximum Tax Saving</span>
 				</h3>
-									<p class="elementor-icon-box-description">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula					</p>
+									<p class="elementor-icon-box-description">we are dedicated to helping our clients achieve maximum tax savings through strategic planning and expert advice.</p>
 							</div>
 		</div>
 				</div>
@@ -268,11 +271,9 @@ tax and business compliances. </p>						</div>
 			</div>
 						<div class="elementor-icon-box-content">
 				<h3 class="elementor-icon-box-title">
-					<span  >
-						Financial Planing					</span>
+					<span  >Stress Free</span>
 				</h3>
-									<p class="elementor-icon-box-description">
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula					</p>
+									<p class="elementor-icon-box-description">we are committed to providing stress-free tax-saving solutions that alleviate the burden and ensure your peace of mind.</p>
 							</div>
 		</div>
 				</div>
@@ -297,11 +298,12 @@ tax and business compliances. </p>						</div>
 				<div class="elementor-element elementor-element-00a81b9 elementor-align-left elementor-widget elementor-widget-button" data-id="00a81b9" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
+			<NavLink to='/itr'><a class="elementor-button-link elementor-button elementor-size-md" role="button">
+				
 						<span class="elementor-button-content-wrapper">
 						<span class="elementor-button-text">Learn More</span>
 		</span>
-					</a>
+					</a></NavLink>
 		</div>
 				</div>
 				</div>
@@ -323,7 +325,7 @@ tax and business compliances. </p>						</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading" data-id="833e261" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="jkit_heading.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd" ><h3 class="heading-section-subtitle  style-color">OUR SERVICES</h3><div class="heading-section-title  display-inline-block"><h2 class="heading-title">What We Provide</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div><div class="heading-section-description"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div></div>		</div>
+			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd" ><h3 class="heading-section-subtitle  style-color">OUR SERVICES</h3><div class="heading-section-title  display-inline-block"><h2 class="heading-title">What We Provide</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div><div class="heading-section-description"><p>We've got you covered. You name it, we got it.</p></div></div>		</div>
 				</div>
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-27f4fcf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27f4fcf" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -331,16 +333,16 @@ tax and business compliances. </p>						</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-33feb89 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="33feb89" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_8_64e45de74d8cd" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-document-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Insurance Tax</h2><p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_8_64e45de74d8cd" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-document-light"></i></div></div><div class="icon-box icon-box-body">
+                <h2 class="title">Self Employed?</h2><p class="icon-box-description">You can file your tax returns manually without uploading Form-16. You can also upload Form 26AS</p>
             </div>
             
             </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-0e345b9 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="0e345b9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_9_64e45de75014d" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-money-3-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Financial Planning</h2><p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_9_64e45de75014d" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-money-3-light"></i></div></div><div class="icon-box icon-box-body">
+                <h2 class="title">Have pension income?</h2><p class="icon-box-description">Add pension details in the Income Sources Page. Also add any other interest earned, if applicable</p>
             </div>
             
             </div></div>		</div>
@@ -351,16 +353,16 @@ tax and business compliances. </p>						</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-2354a0a jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="2354a0a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_10_64e45de7530e0" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-paper-plane-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Strategic Planning</h2><p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_10_64e45de7530e0" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-paper-plane-light"></i></div></div><div class="icon-box icon-box-body">
+                <h2 class="title">Switched jobs?</h2><p class="icon-box-description">Switched jobs in a financial year? You can upload multiple Form-16s and file returns</p>
             </div>
             
             </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-6d0a6b4 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="6d0a6b4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_11_64e45de75569c" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-save-money-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Finance Secure</h2><p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_11_64e45de75569c" ><div class="jkit-icon-box-wrapper hover-from-botto hp-wwpbm"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-save-money-light"></i></div></div><div class="icon-box icon-box-body">
+                <h2 class="title">Invested in Stocks & Mutual Funds</h2><p class="icon-box-description">Simply Upload your P&L Report and we will auto-fill all your data and help you with filing returns</p>
             </div>
             
             </div></div>		</div>
@@ -371,16 +373,16 @@ tax and business compliances. </p>						</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-455daef jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="455daef" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_12_64e45de75801c" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-chart2-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Audit &amp; Assurancy</h2><p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_12_64e45de75801c" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-chart2-light"></i></div></div><div class="icon-box icon-box-body">
+                <h2 class="title">Have business income?</h2><p class="icon-box-description">You can file returns by adding your trading, speculative and presumptive income</p>
             </div>
             
             </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-4be19db jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="4be19db" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_13_64e45de75b16a" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-Document-Search-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Project Management</h2><p class="icon-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_13_64e45de75b16a" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-Document-Search-light"></i></div></div><div class="icon-box icon-box-body">
+                <h2 class="title">Don't have Form 16?</h2><p class="icon-box-description">We will pre-fill your data from IT Department and help you with filing returns</p>
             </div>
             
             </div></div>		</div>
@@ -407,7 +409,7 @@ tax and business compliances. </p>						</div>
 			<div  class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_14_64e45de760881" ><div class="fun-fact-inner"><div class="icon elementor-animation-"><i aria-hidden="true" class="jki jki-users2-light"></i></div>
             <div class="content">
                 <div class="number-wrapper"><span class="prefix"></span>
-        <span class="number" data-value="1452" data-animation-duration="3500">0</span>
+        <span class="number" data-value="1452" data-animation-duration="3500">1,000</span>
         <span class="suffix"></span><sup class="super">+</sup></div>
                 <h2 class="title">Happy Clients</h2>
             </div>
@@ -422,9 +424,9 @@ tax and business compliances. </p>						</div>
 			<div  class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_15_64e45de762a5f" ><div class="fun-fact-inner"><div class="icon elementor-animation-"><i aria-hidden="true" class="jki jki-Profile-light"></i></div>
             <div class="content">
                 <div class="number-wrapper"><span class="prefix"></span>
-        <span class="number" data-value="1200" data-animation-duration="3500">0</span>
+        <span class="number" data-value="1200" data-animation-duration="3500">1,00,000</span>
         <span class="suffix"></span><sup class="super">+</sup></div>
-                <h2 class="title">Project Complete</h2>
+                <h2 class="title">ITR Filed</h2>
             </div>
         </div></div>		</div>
 				</div>
@@ -437,15 +439,15 @@ tax and business compliances. </p>						</div>
 			<div  class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_16_64e45de764286" ><div class="fun-fact-inner"><div class="icon elementor-animation-"><i aria-hidden="true" class="jki jki-badge"></i></div>
             <div class="content">
                 <div class="number-wrapper"><span class="prefix"></span>
-        <span class="number" data-value="10" data-animation-duration="3500">0</span>
+        <span class="number" data-value="10" data-animation-duration="3500">1,00,00,000</span>
         <span class="suffix"></span><sup class="super">+</sup></div>
-                <h2 class="title">Years Experience</h2>
+                <h2 class="title">Tax Saved</h2>
             </div>
         </div></div>		</div>
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fbda3e6" data-id="fbda3e6" data-element_type="column">
+				{/* <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fbda3e6" data-id="fbda3e6" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-2bfe706 elementor-invisible elementor-widget elementor-widget-jkit_fun_fact" data-id="2bfe706" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="jkit_fun_fact.default">
 				<div class="elementor-widget-container">
@@ -459,14 +461,16 @@ tax and business compliances. </p>						</div>
         </div></div>		</div>
 				</div>
 					</div>
-		</div>
+		</div> */}
 							</div>
 		</section>
 					</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-668b16f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="668b16f" data-element_type="section">
+
+		{/* meet with expert section */}
+				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-668b16f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="668b16f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ad572bb" data-id="ad572bb" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -542,7 +546,7 @@ tax and business compliances. </p>						</div>
 					</div>
 		</div>
 							</div>
-		</section>
+		</section> */}
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-fd6d5a1 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fd6d5a1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-no">
@@ -602,7 +606,7 @@ tax and business compliances. </p>						</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-3d392fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d392fc" data-element_type="section">
+				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-3d392fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d392fc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0de7d61" data-id="0de7d61" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -621,12 +625,14 @@ tax and business compliances. </p>						</div>
 					</div>
 		</div>
 							</div>
-		</section>
+		</section> */}
 				<section class="elementor-section elementor-inner-section elementor-element elementor-element-29a0636b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="29a0636b" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
 								</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-b62d432 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b62d432" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+
+		{/* latest project section */}
+				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-b62d432 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b62d432" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-46a3e78 elementor-invisible" data-id="46a3e78" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
@@ -684,8 +690,10 @@ tax and business compliances. </p>						</div>
 					</div>
 		</div>
 							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-32c40f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="32c40f4" data-element_type="section">
+		</section> */}
+
+		{/* drop down section */}
+				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-32c40f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="32c40f4" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-74610e6 elementor-invisible" data-id="74610e6" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -719,7 +727,7 @@ tax and business compliances. </p>						</div>
             </div>
                     </a>
                 </div>
-                {/* <div class="card-expand" id="expand-a10b044" style="display:none"><div class="card-body"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div></div> */}
+               
             </div><div class="card-wrapper ">
                 <div class="card-header">
                     <a href="#expand-3b675fa" class="card-header-button" aria-expanded="false" data-target="#expand-3b675fa" aria-controls="expand-3b675fa">
@@ -729,13 +737,15 @@ tax and business compliances. </p>						</div>
             </div>
                     </a>
                 </div>
-                {/* <div class="card-expand" id="expand-3b675fa" style="display:none"><div class="card-body"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div></div> */}
+                
             </div></div>		</div>
 				</div>
 					</div>
 		</div>
 							</div>
-		</section>
+		</section> */}
+
+		
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-eb6f18a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eb6f18a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-default">
@@ -760,7 +770,30 @@ tax and business compliances. </p>						</div>
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-27f5eda elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27f5eda" data-element_type="section">
+
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-3d392fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d392fc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0de7d61" data-id="0de7d61" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-469deb0 elementor-invisible elementor-widget elementor-widget-jkit_heading" data-id="469deb0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="jkit_heading.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_27_64e45de7948fa" ><div class="heading-section-title  display-inline-block"><h2 class="heading-title">Our Partner</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-b3f6d65 elementor-invisible elementor-widget elementor-widget-image-carousel" data-id="b3f6d65" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:&quot;1000&quot;,&quot;speed&quot;:&quot;100&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;slides_to_show_tablet&quot;:&quot;3&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper">
+								<div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-global-group-company.png" alt="logo-global-group-company" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-square-mediafirst.png" alt="logo-square-mediafirst" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-black-box.png" alt="logo-black-box" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-morex.png" alt="logo-morex" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-monaco.png" alt="logo-monaco" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-construct.png" alt="logo-construct" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-growny-designer.png" alt="logo-growny-designer" /></figure></div>			</div>
+																</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+
+		{/* blog section */}
+				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-27f5eda elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27f5eda" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-37a5271" data-id="37a5271" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -818,7 +851,7 @@ tax and business compliances. </p>						</div>
 					</div>
 		</div>
 							</div>
-		</section>
+		</section> */}
 							</div>
     </body>
     </>

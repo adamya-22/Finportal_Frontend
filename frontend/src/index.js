@@ -2,12 +2,15 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import  {FirebaseApp}  from "./components/context/firebaseContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />    
+      <FirebaseApp>
+       <App />  
+      </FirebaseApp>  
     </BrowserRouter>
   </React.StrictMode>
 );

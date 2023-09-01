@@ -1,8 +1,17 @@
 import React from 'react'
+import Hero from "./File/Hero";
+import Service from "./File/Service";
+import Business from "./File/Business";
+import Benifits from "./File/Benifits";
 
 const ItrFiling = () => {
   return (
-    <div>ItrFiling</div>
+    <>
+      <Hero />
+      <Service />
+      <Business />
+      <Benifits />
+    </>
   )
 }
 

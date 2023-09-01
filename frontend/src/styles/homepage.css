@@ -41,3 +41,7 @@
     background-color: var(--e-global-color-79847bf );
     border: none;
 }
+
+.hp-wwpb{
+    min-height: 350px;
+}
