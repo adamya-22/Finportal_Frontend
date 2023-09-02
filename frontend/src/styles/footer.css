@@ -40,7 +40,7 @@ footer{
 .f43{
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 .f43 input{
     padding: 7px 10px;
@@ -51,6 +51,8 @@ footer{
     border: none;
 }
 .f43 button{
+    font-size: 16px;
+    margin: 0;
     padding: 7px 15px;
     background-color: orange;
     border: none;
@@ -76,6 +78,9 @@ footer{
 
 .f21 h3{
     color: #FFB400;
+}
+.f12{
+    color: white;
 }
 .f22 a{
     color: white;

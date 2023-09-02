@@ -1,12 +1,13 @@
 import React from "react";
 import Piggy from "./piggy.jpg";
+import mpic from "./mpic.jpg"
 import classes from "./Hero.module.css";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 const Hero = () => {
   return (
-    <div className="">
+    <div className="itr-img-parent">
       <div className={classes.sectionContainer}>
-        <img src={Piggy} alt="Hero" className={classes.imageContainer} />
+        <img src={mpic} alt="Hero" className={classes.imageContainer} />
         <div className={classes.textContent}>
           <h2>File ITR in 30 Min</h2>
           <p>
