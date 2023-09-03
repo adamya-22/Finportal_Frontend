@@ -84,7 +84,7 @@ const Navbar = () => {
 	<NavLink to='#'>Account</NavLink>
 <ul class="sub-menu">
 	<li id="menu-item-6133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6133">
-		<NavLink to='/login'>Login</NavLink>
+		<NavLink to='/signin'>Signin</NavLink>
 	</li>
 	<li id="menu-item-6134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6134">
 	<NavLink to='/signup'>Signup</NavLink>

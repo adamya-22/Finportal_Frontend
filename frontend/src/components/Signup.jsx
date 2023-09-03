@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useFirebase } from "../components/context/firebaseContext";
 import { useNavigate } from "react-router-dom";
-import "../styles/signin.css";
+import "../styles/signup.css";
 import { FcGoogle } from 'react-icons/fc';
 
 const SignupPage = () => {

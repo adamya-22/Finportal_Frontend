@@ -27,7 +27,8 @@ export default function Signin() {
   };
 
   return (
-    <div class="container">
+    <div className="signin-main">
+    <div class="logincont container">
       <div class="left-panel">
         <h2>Welcome Back!</h2>
         <p>Log in to access your account.</p>
@@ -59,6 +60,7 @@ export default function Signin() {
           Don't have an account? <a href="#">Sign Up</a>
         </p>
       </div>
+    </div>
     </div>
   );
 }
