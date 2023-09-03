@@ -49,3 +49,13 @@
 .signcont .fc{
     margin: -10px 10px;
 }
+
+.signup-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0 200px 0;
+    background-color: #184341; 
+    /* opacity: 0.69; */
+    margin-top: -120px;
+  }

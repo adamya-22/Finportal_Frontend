@@ -27,7 +27,7 @@ const SignupPage = () => {
     );
     console.log(userCredential);
     if (userCredential.user) {
-      navigate("/login");
+      navigate("/signin");
     }
 
     // also update user's info to realtime database
@@ -63,6 +63,7 @@ const SignupPage = () => {
 
   return (
 
+    <div className="signup-main">
     <div className="signcont container">
       <h1>Sign Up</h1>
 
@@ -132,6 +133,7 @@ const SignupPage = () => {
         <button onClick={handleSubmit} type="submit">Sign Up</button>
        <button className="google" > <FcGoogle  className="fc"size={40} />Sign IN with Google</button>
       </form>
+    </div>
     </div>
   );
 };

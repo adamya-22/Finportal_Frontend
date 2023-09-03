@@ -19,7 +19,7 @@ export default function Signin() {
       const userCredential = await firebase.signInUser(email, password);
       console.log("welocme", userCredential);
       if (userCredential.user) {
-        navigate("/home");
+        navigate("/");
       }
     } catch (error) {
       console.log(error);
