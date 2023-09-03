@@ -1,52 +1,115 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-import '../styles/homepage.css'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "../styles/homepage.css";
 
 const Homepage = () => {
   return (
     <>
-    <body class="home page-template-default page page-id-6 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-6">
-    <div data-elementor-type="wp-page" data-elementor-id="6" class="elementor elementor-6">
-									<section class="elementor-section elementor-top-section elementor-element elementor-element-f0dd4c4 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="f0dd4c4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a994da8" data-id="a994da8" data-element_type="column">
-			<div class="elementor-widget-wrap">
-									</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-526d37f" data-id="526d37f" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-fd76dc0 elementor-invisible elementor-widget elementor-widget-heading" data-id="fd76dc0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">WE'RE TAX CONSULTANT</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-b039903 elementor-invisible elementor-widget elementor-widget-heading" data-id="b039903" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h1 class="elementor-heading-title elementor-size-default">Help You To Manage Your Tax</h1>		</div>
-				</div>
-				<div class="elementor-element elementor-element-27ee765 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="27ee765" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Let our experts manage your
-tax and business compliances. </p>						</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-e3fb443 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e3fb443" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-83a15c8" data-id="83a15c8" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-f88b4a1 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="f88b4a1" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="/itr" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Get Started</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				{/* <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-933895e" data-id="933895e" data-element_type="column">
+      <body class="home page-template-default page page-id-6 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-6">
+        <div
+          data-elementor-type="wp-page"
+          data-elementor-id="6"
+          class="elementor elementor-6"
+        >
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-f0dd4c4 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+            data-id="f0dd4c4"
+            data-element_type="section"
+            data-settings='{"background_background":"classic"}'
+          >
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a994da8"
+                data-id="a994da8"
+                data-element_type="column"
+              >
+                <div class="elementor-widget-wrap"></div>
+              </div>
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-526d37f"
+                data-id="526d37f"
+                data-element_type="column"
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-fd76dc0 elementor-invisible elementor-widget elementor-widget-heading"
+                    data-id="fd76dc0"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"fadeInLeft"}'
+                    data-widget_type="heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <h2 class="elementor-heading-title elementor-size-default">
+                        WE'RE TAX CONSULTANT
+                      </h2>{" "}
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-b039903 elementor-invisible elementor-widget elementor-widget-heading"
+                    data-id="b039903"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"fadeInRight","_animation_delay":"200"}'
+                    data-widget_type="heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <h1 class="elementor-heading-title elementor-size-default">
+                        Help You To Manage Your Tax
+                      </h1>{" "}
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-27ee765 elementor-invisible elementor-widget elementor-widget-text-editor"
+                    data-id="27ee765"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"fadeInRight","_animation_delay":"300"}'
+                    data-widget_type="text-editor.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <p>
+                        Let our experts manage your tax and business
+                        compliances.{" "}
+                      </p>{" "}
+                    </div>
+                  </div>
+                  <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-e3fb443 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="e3fb443"
+                    data-element_type="section"
+                  >
+                    <div class="elementor-container elementor-column-gap-no">
+                      <div
+                        class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-83a15c8"
+                        data-id="83a15c8"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-f88b4a1 elementor-align-left elementor-invisible elementor-widget elementor-widget-button"
+                            data-id="f88b4a1"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInLeft","_animation_delay":"400"}'
+                            data-widget_type="button.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="elementor-button-wrapper">
+                                <a
+                                  href="/itr"
+                                  class="elementor-button-link elementor-button elementor-size-md"
+                                  role="button"
+                                >
+                                  <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-text">
+                                      Get Started
+                                    </span>
+                                  </span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-933895e" data-id="933895e" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-889c44a elementor-invisible elementor-widget elementor-widget-jkit_video_button" data-id="889c44a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;500&quot;}" data-widget_type="jkit_video_button.default">
 				<div class="elementor-widget-container">
@@ -54,7 +117,7 @@ tax and business compliances. </p>						</div>
 				</div>
 					</div>
 		</div> */}
-				{/* <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-862caa4" data-id="862caa4" data-element_type="column">
+                      {/* <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-862caa4" data-id="862caa4" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-da2c1fa elementor-invisible elementor-widget elementor-widget-heading" data-id="da2c1fa" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;600&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -62,392 +125,1091 @@ tax and business compliances. </p>						</div>
 				</div>
 					</div>
 		</div> */}
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-27632a6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27632a6" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29d5a0f elementor-invisible" data-id="29d5a0f" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-53c69da elementor-widget elementor-widget-jkit_heading" data-id="53c69da" data-element_type="widget" data-widget_type="jkit_heading.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_4_64e45de71b42a" ><h3 class="heading-section-subtitle  style-color">WELCOME TO FINPORTAL</h3><div class="heading-section-title  display-inline-block"><h2 class="heading-title">We Will Provide Best Tax Service For Your Business.</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div><div class="heading-section-description"><p>Our team is here to assist you and answer any questions you may have. Connect with us and let’s start a conversation!</p></div></div>		</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-f19e876 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="f19e876" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4bed5d9" data-id="4bed5d9" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2679dab elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="2679dab" data-element_type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-					<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">Learn from customer feedback</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">Professional Team</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">High Savings Potential</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">24/7 customer support</span>
-									</li>
-						</ul>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a88f122" data-id="a88f122" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-df7409e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="df7409e" data-element_type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-					<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">High Savings Potential</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">Professional Team</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">24/7 customer support</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="fas fa-check"></i>						</span>
-										<span class="elementor-icon-list-text">Learn from customer feedback</span>
-									</li>
-						</ul>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-d7578b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d7578b9" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9d96893" data-id="9d96893" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2698187 elementor-widget elementor-widget-image" data-id="2698187" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img width="261" height="49" src="wp-content/uploads/sites/111/2021/06/david-morgan-signature-founder.png" class="attachment-large size-large wp-image-3845" alt="" decoding="async" loading="lazy" />															</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8d0e351" data-id="8d0e351" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2fea428 elementor-widget elementor-widget-heading" data-id="2fea428" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">David Morgan</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-b5f147a elementor-widget elementor-widget-text-editor" data-id="b5f147a" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Founder Finportal</p>						</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be7d7d6 elementor-invisible" data-id="be7d7d6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-					<div class="elementor-background-overlay"></div>
-								<div class="elementor-element elementor-element-caba6e5 elementor-widget elementor-widget-metform" data-id="caba6e5" data-element_type="widget" data-widget_type="metform.default">
-				<div class="elementor-widget-container">
-			<div id="mf-response-props-id-2520" data-previous-steps-style="" data-editswitchopen="" data-response_type="alert" data-erroricon="fas fa-exclamation-triangle" data-successicon="fas fa-check" data-messageposition="top" class="   mf-scroll-top-no">
-		<div class="formpicker_warper formpicker_warper_editable" data-metform-formpicker-key="2520" >
-				
-			<div class="elementor-widget-container">
-				
-		<div
-			id="metform-wrap-caba6e5-2520"
-			class="mf-form-wrapper"
-			data-form-id="2520"
-			data-action="wp-json/metform/v1/entries/insert/2520.json"
-			data-wp-nonce="d838c1f283"
-			data-form-nonce="8d9aec3cae"
-			data-quiz-summery = "false"
-			data-save-progress = "false"
-			data-form-type="contact_form"
-			data-stop-vertical-effect=""
-			>
-        <div  className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_5_64e45de72893c" >
-				<h3 className="heading-section-subtitle  style-color">SEND A MESSAGE</h3>
-        <div className="heading-section-title  display-inline-block">
-					<h2 className="heading-title">Request a call back</h2></div></div>
-          <div className="hp-form">
-            <form action="">
-              <input type="text" placeholder='Your Name'/>
-              <input type="text" placeholder='Your Email'/>
-              <input type="text" placeholder='Your Contact'/>
-              <textarea name="" placeholder='Message' id="" cols="30" rows="5"></textarea>
-              <input type="submit" />
-            </form>
-            
-          </div>
-      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-27632a6 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="27632a6"
+            data-element_type="section"
+          >
+            <div class="elementor-container elementor-column-gap-no">
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-29d5a0f elementor-invisible"
+                data-id="29d5a0f"
+                data-element_type="column"
+                data-settings='{"animation":"fadeInLeft"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-53c69da elementor-widget elementor-widget-jkit_heading"
+                    data-id="53c69da"
+                    data-element_type="widget"
+                    data-widget_type="jkit_heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_4_64e45de71b42a">
+                        <h3 class="heading-section-subtitle  style-color">
+                          WELCOME TO FINPORTAL
+                        </h3>
+                        <div class="heading-section-title  display-inline-block">
+                          <h2 class="heading-title">
+                            We Will Provide Best Tax Service For Your Business.
+                          </h2>
+                        </div>
+                        <div class="heading-section-separator">
+                          <div class="separator-wrapper style-solid"></div>
+                        </div>
+                        <div class="heading-section-description">
+                          <p>
+                            Our team is here to assist you and answer any
+                            questions you may have. Connect with us and let’s
+                            start a conversation!
+                          </p>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                  <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-f19e876 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="f19e876"
+                    data-element_type="section"
+                  >
+                    <div class="elementor-container elementor-column-gap-no">
+                      <div
+                        class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-4bed5d9"
+                        data-id="4bed5d9"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-2679dab elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                            data-id="2679dab"
+                            data-element_type="widget"
+                            data-widget_type="icon-list.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <ul class="elementor-icon-list-items">
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    Learn from customer feedback
+                                  </span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    Professional Team
+                                  </span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    High Savings Potential
+                                  </span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    24/7 customer support
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a88f122"
+                        data-id="a88f122"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-df7409e elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                            data-id="df7409e"
+                            data-element_type="widget"
+                            data-widget_type="icon-list.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <ul class="elementor-icon-list-items">
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    High Savings Potential
+                                  </span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    Professional Team
+                                  </span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    24/7 customer support
+                                  </span>
+                                </li>
+                                <li class="elementor-icon-list-item">
+                                  <span class="elementor-icon-list-icon">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-check"
+                                    ></i>{" "}
+                                  </span>
+                                  <span class="elementor-icon-list-text">
+                                    Learn from customer feedback
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-d7578b9 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="d7578b9"
+                    data-element_type="section"
+                  >
+                    <div class="elementor-container elementor-column-gap-no">
+                      <div
+                        class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-9d96893"
+                        data-id="9d96893"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-2698187 elementor-widget elementor-widget-image"
+                            data-id="2698187"
+                            data-element_type="widget"
+                            data-widget_type="image.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <img
+                                width="261"
+                                height="49"
+                                src="wp-content/uploads/sites/111/2021/06/david-morgan-signature-founder.png"
+                                class="attachment-large size-large wp-image-3845"
+                                alt=""
+                                decoding="async"
+                                loading="lazy"
+                              />{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8d0e351"
+                        data-id="8d0e351"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-2fea428 elementor-widget elementor-widget-heading"
+                            data-id="2fea428"
+                            data-element_type="widget"
+                            data-widget_type="heading.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <h2 class="elementor-heading-title elementor-size-default">
+                                David Morgan
+                              </h2>{" "}
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-b5f147a elementor-widget elementor-widget-text-editor"
+                            data-id="b5f147a"
+                            data-element_type="widget"
+                            data-widget_type="text-editor.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <p>Founder Finportal</p>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-be7d7d6 elementor-invisible"
+                data-id="be7d7d6"
+                data-element_type="column"
+                data-settings='{"background_background":"classic","animation":"fadeInUp"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-background-overlay"></div>
+                  <div
+                    class="elementor-element elementor-element-caba6e5 elementor-widget elementor-widget-metform"
+                    data-id="caba6e5"
+                    data-element_type="widget"
+                    data-widget_type="metform.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div
+                        id="mf-response-props-id-2520"
+                        data-previous-steps-style=""
+                        data-editswitchopen=""
+                        data-response_type="alert"
+                        data-erroricon="fas fa-exclamation-triangle"
+                        data-successicon="fas fa-check"
+                        data-messageposition="top"
+                        class="   mf-scroll-top-no"
+                      >
+                        <div
+                          class="formpicker_warper formpicker_warper_editable"
+                          data-metform-formpicker-key="2520"
+                        >
+                          <div class="elementor-widget-container">
+                            <div
+                              id="metform-wrap-caba6e5-2520"
+                              class="mf-form-wrapper"
+                              data-form-id="2520"
+                              data-action="wp-json/metform/v1/entries/insert/2520.json"
+                              data-wp-nonce="d838c1f283"
+                              data-form-nonce="8d9aec3cae"
+                              data-quiz-summery="false"
+                              data-save-progress="false"
+                              data-form-type="contact_form"
+                              data-stop-vertical-effect=""
+                            >
+                              <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_5_64e45de72893c">
+                                <h3 className="heading-section-subtitle  style-color">
+                                  SEND A MESSAGE
+                                </h3>
+                                <div className="heading-section-title  display-inline-block">
+                                  <h2 className="heading-title">
+                                    Request a call back
+                                  </h2>
+                                </div>
+                              </div>
+                              <div className="hp-form">
+                                <form action="">
+                                  <input type="text" placeholder="Your Name" />
+                                  <input type="text" placeholder="Your Email" />
+                                  <input
+                                    type="text"
+                                    placeholder="Your Contact"
+                                  />
+                                  <textarea
+                                    name=""
+                                    placeholder="Message"
+                                    id=""
+                                    cols="30"
+                                    rows="5"
+                                  ></textarea>
+                                  <input type="submit" />
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-3c7f415b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="3c7f415b"
+            data-element_type="section"
+          >
+            <div
+              class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading"
+              data-id="833e261"
+              data-element_type="widget"
+              data-settings='{"_animation":"fadeInUp"}'
+              data-widget_type="jkit_heading.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd">
+                  <div class="heading-section-title  display-inline-block">
+                    <h2 class="heading-title">Why You Shoud Trust Us</h2>
+                  </div>
+                  <div class="heading-section-separator">
+                    <div class="separator-wrapper style-solid"></div>
+                  </div>
+                </div>{" "}
+              </div>
+            </div>
 
-					</div>
-		</div>
-		</div>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-3c7f415b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3c7f415b" data-element_type="section">
-
-				<div class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading" data-id="833e261" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="jkit_heading.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd" ><div class="heading-section-title  display-inline-block"><h2 class="heading-title">Why You Shoud Trust Us</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div></div>		</div>
-				</div>
-
-
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2ff00d2 elementor-invisible" data-id="2ff00d2" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-7e98250f elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="7e98250f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-box-wrapper">
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon elementor-animation-" >
-				<i aria-hidden="true" class="jki jki-users-light"></i>				</span>
-			</div>
-						<div class="elementor-icon-box-content">
-				<h3 class="elementor-icon-box-title"><span>Experienced Team</span></h3>
-									<p class="elementor-icon-box-description">
-									We are proud to have assembled a team of highly experienced professionals who are dedicated to helping our clients maximize their tax savings.</p>
-							</div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-75ede085 elementor-invisible" data-id="75ede085" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-6912e14e elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="6912e14e" data-element_type="widget" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-box-wrapper">
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon elementor-animation-" >
-				<i aria-hidden="true" class="jki jki-consut2-light"></i>				</span>
-			</div>
-						<div class="elementor-icon-box-content">
-				<h3 class="elementor-icon-box-title">
-					<span  >Maximum Tax Saving</span>
-				</h3>
-									<p class="elementor-icon-box-description">we are dedicated to helping our clients achieve maximum tax savings through strategic planning and expert advice.</p>
-							</div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d807d7 elementor-invisible" data-id="d807d7" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-44876c29 elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="44876c29" data-element_type="widget" data-widget_type="icon-box.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-box-wrapper">
-						<div class="elementor-icon-box-icon">
-				<span class="elementor-icon elementor-animation-" >
-				<i aria-hidden="true" class="jki jki-finance-book-light"></i>				</span>
-			</div>
-						<div class="elementor-icon-box-content">
-				<h3 class="elementor-icon-box-title">
-					<span  >Stress Free</span>
-				</h3>
-									<p class="elementor-icon-box-description">we are committed to providing stress-free tax-saving solutions that alleviate the burden and ensure your peace of mind.</p>
-							</div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-e1f8ee0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e1f8ee0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-79b5111 elementor-invisible" data-id="79b5111" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-e46dd8f elementor-widget elementor-widget-jkit_animated_text" data-id="e46dd8f" data-element_type="widget" data-widget_type="jkit_animated_text.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-animated-text jeg_module_6_6_64e45de741463"  data-style="rotating" data-text="General Features,Personal tax,Inheritance Tax,Indirect Tax,Large Corporate,International Tax" data-rotate="typing" data-delay="2500" data-letter-speed="100" data-delay-delete="500"><p class="animated-text"><span class="normal-text style-color">We Offer Popular Plans for </span><span class="dynamic-wrapper style-color"><span class="dynamic-text"><span class="dynamic-text-letter">G</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">l</span><span class="dynamic-text-letter"> </span><span class="dynamic-text-letter">F</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">t</span><span class="dynamic-text-letter">u</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">s</span></span><span class="dynamic-text"><span class="dynamic-text-letter">P</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">s</span><span class="dynamic-text-letter">o</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">l</span><span class="dynamic-text-letter"> </span><span class="dynamic-text-letter">t</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">x</span></span><span class="dynamic-text"><span class="dynamic-text-letter">I</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">h</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">i</span><span class="dynamic-text-letter">t</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">c</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter"> </span><span class="dynamic-text-letter">T</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">x</span></span><span class="dynamic-text"><span class="dynamic-text-letter">I</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">d</span><span class="dynamic-text-letter">i</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">c</span><span class="dynamic-text-letter">t</span><span class="dynamic-text-letter"> </span><span class="dynamic-text-letter">T</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">x</span></span><span class="dynamic-text"><span class="dynamic-text-letter">L</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">g</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter"> </span><span class="dynamic-text-letter">C</span><span class="dynamic-text-letter">o</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">p</span><span class="dynamic-text-letter">o</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">t</span><span class="dynamic-text-letter">e</span></span><span class="dynamic-text"><span class="dynamic-text-letter">I</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">t</span><span class="dynamic-text-letter">e</span><span class="dynamic-text-letter">r</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">t</span><span class="dynamic-text-letter">i</span><span class="dynamic-text-letter">o</span><span class="dynamic-text-letter">n</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">l</span><span class="dynamic-text-letter"> </span><span class="dynamic-text-letter">T</span><span class="dynamic-text-letter">a</span><span class="dynamic-text-letter">x</span></span></span><span class="normal-text style-color"></span></p></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-2d3e2f6 elementor-widget elementor-widget-text-editor" data-id="2d3e2f6" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>						</div>
-				</div>
-				<div class="elementor-element elementor-element-00a81b9 elementor-align-left elementor-widget elementor-widget-button" data-id="00a81b9" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<NavLink to='/itr'><a class="elementor-button-link elementor-button elementor-size-md" role="button">
-				
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Learn More</span>
-		</span>
-					</a></NavLink>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d1c2cff elementor-invisible" data-id="d1c2cff" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInRight&quot;,&quot;animation_delay&quot;:&quot;100&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-a173bae elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="a173bae" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container adc-1">
-															<img width="800" height="532" src="wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1024x681.jpg" class="attachment-large size-large wp-image-1581" alt="business people hands shake for business partnership success, Shake hand concept" decoding="async" loading="lazy" srcset="https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1024x681.jpg 1024w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-300x200.jpg 300w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-768x511.jpg 768w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1536x1022.jpg 1536w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-800x532.jpg 800w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-e1626231690663.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-894dac4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="894dac4" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47809c3" data-id="47809c3" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading" data-id="833e261" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="jkit_heading.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd" ><h3 class="heading-section-subtitle  style-color">OUR SERVICES</h3><div class="heading-section-title  display-inline-block"><h2 class="heading-title">What We Provide</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div><div class="heading-section-description"><p>We've got you covered. You name it, we got it.</p></div></div>		</div>
-				</div>
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-27f4fcf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27f4fcf" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d57bd56" data-id="d57bd56" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-33feb89 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="33feb89" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_8_64e45de74d8cd" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-document-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Self Employed?</h2><p class="icon-box-description">You can file your tax returns manually without uploading Form-16. You can also upload Form 26AS</p>
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2ff00d2 elementor-invisible"
+                data-id="2ff00d2"
+                data-element_type="column"
+                data-settings='{"background_background":"classic","animation":"fadeInLeft"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-7e98250f elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                    data-id="7e98250f"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"none"}'
+                    data-widget_type="icon-box.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper">
+                        <div class="elementor-icon-box-icon">
+                          <span class="elementor-icon elementor-animation-">
+                            <i
+                              aria-hidden="true"
+                              class="jki jki-users-light"
+                            ></i>{" "}
+                          </span>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Experienced Team</span>
+                          </h3>
+                          <p class="elementor-icon-box-description">
+                            We are proud to have assembled a team of highly
+                            experienced professionals who are dedicated to
+                            helping our clients maximize their tax savings.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-75ede085 elementor-invisible"
+                data-id="75ede085"
+                data-element_type="column"
+                data-settings='{"animation":"fadeInUp"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-6912e14e elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                    data-id="6912e14e"
+                    data-element_type="widget"
+                    data-widget_type="icon-box.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper">
+                        <div class="elementor-icon-box-icon">
+                          <span class="elementor-icon elementor-animation-">
+                            <i
+                              aria-hidden="true"
+                              class="jki jki-consut2-light"
+                            ></i>{" "}
+                          </span>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Maximum Tax Saving</span>
+                          </h3>
+                          <p class="elementor-icon-box-description">
+                            we are dedicated to helping our clients achieve
+                            maximum tax savings through strategic planning and
+                            expert advice.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d807d7 elementor-invisible"
+                data-id="d807d7"
+                data-element_type="column"
+                data-settings='{"animation":"fadeInRight"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-44876c29 elementor-position-left elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                    data-id="44876c29"
+                    data-element_type="widget"
+                    data-widget_type="icon-box.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper">
+                        <div class="elementor-icon-box-icon">
+                          <span class="elementor-icon elementor-animation-">
+                            <i
+                              aria-hidden="true"
+                              class="jki jki-finance-book-light"
+                            ></i>{" "}
+                          </span>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Stress Free</span>
+                          </h3>
+                          <p class="elementor-icon-box-description">
+                            we are committed to providing stress-free tax-saving
+                            solutions that alleviate the burden and ensure your
+                            peace of mind.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            
-            </div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-0e345b9 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="0e345b9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_9_64e45de75014d" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-money-3-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Have pension income?</h2><p class="icon-box-description">Add pension details in the Income Sources Page. Also add any other interest earned, if applicable</p>
+          </section>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-e1f8ee0 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="e1f8ee0"
+            data-element_type="section"
+            data-settings='{"background_background":"gradient"}'
+          >
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-no">
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-79b5111 elementor-invisible"
+                data-id="79b5111"
+                data-element_type="column"
+                data-settings='{"animation":"fadeInLeft"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-e46dd8f elementor-widget elementor-widget-jkit_animated_text"
+                    data-id="e46dd8f"
+                    data-element_type="widget"
+                    data-widget_type="jkit_animated_text.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div
+                        class="jeg-elementor-kit jkit-animated-text jeg_module_6_6_64e45de741463"
+                        data-style="rotating"
+                        data-text="General Features,Personal tax,Inheritance Tax,Indirect Tax,Large Corporate,International Tax"
+                        data-rotate="typing"
+                        data-delay="2500"
+                        data-letter-speed="100"
+                        data-delay-delete="500"
+                      >
+                        <p class="animated-text">
+                          <span class="normal-text style-color">
+                            We Offer Popular Plans for{" "}
+                          </span>
+                          <span class="dynamic-wrapper style-color">
+                            <span class="dynamic-text">
+                              <span class="dynamic-text-letter">G</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">l</span>
+                              <span class="dynamic-text-letter"> </span>
+                              <span class="dynamic-text-letter">F</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">t</span>
+                              <span class="dynamic-text-letter">u</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">s</span>
+                            </span>
+                            <span class="dynamic-text">
+                              <span class="dynamic-text-letter">P</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">s</span>
+                              <span class="dynamic-text-letter">o</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">l</span>
+                              <span class="dynamic-text-letter"> </span>
+                              <span class="dynamic-text-letter">t</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">x</span>
+                            </span>
+                            <span class="dynamic-text">
+                              <span class="dynamic-text-letter">I</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">h</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">i</span>
+                              <span class="dynamic-text-letter">t</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">c</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter"> </span>
+                              <span class="dynamic-text-letter">T</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">x</span>
+                            </span>
+                            <span class="dynamic-text">
+                              <span class="dynamic-text-letter">I</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">d</span>
+                              <span class="dynamic-text-letter">i</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">c</span>
+                              <span class="dynamic-text-letter">t</span>
+                              <span class="dynamic-text-letter"> </span>
+                              <span class="dynamic-text-letter">T</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">x</span>
+                            </span>
+                            <span class="dynamic-text">
+                              <span class="dynamic-text-letter">L</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">g</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter"> </span>
+                              <span class="dynamic-text-letter">C</span>
+                              <span class="dynamic-text-letter">o</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">p</span>
+                              <span class="dynamic-text-letter">o</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">t</span>
+                              <span class="dynamic-text-letter">e</span>
+                            </span>
+                            <span class="dynamic-text">
+                              <span class="dynamic-text-letter">I</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">t</span>
+                              <span class="dynamic-text-letter">e</span>
+                              <span class="dynamic-text-letter">r</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">t</span>
+                              <span class="dynamic-text-letter">i</span>
+                              <span class="dynamic-text-letter">o</span>
+                              <span class="dynamic-text-letter">n</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">l</span>
+                              <span class="dynamic-text-letter"> </span>
+                              <span class="dynamic-text-letter">T</span>
+                              <span class="dynamic-text-letter">a</span>
+                              <span class="dynamic-text-letter">x</span>
+                            </span>
+                          </span>
+                          <span class="normal-text style-color"></span>
+                        </p>
+                      </div>{" "}
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-2d3e2f6 elementor-widget elementor-widget-text-editor"
+                    data-id="2d3e2f6"
+                    data-element_type="widget"
+                    data-widget_type="text-editor.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                        dapibus leo.
+                      </p>{" "}
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-00a81b9 elementor-align-left elementor-widget elementor-widget-button"
+                    data-id="00a81b9"
+                    data-element_type="widget"
+                    data-widget_type="button.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-button-wrapper">
+                        <NavLink to="/itr">
+                          <a
+                            class="elementor-button-link elementor-button elementor-size-md"
+                            role="button"
+                          >
+                            <span class="elementor-button-content-wrapper">
+                              <span class="elementor-button-text">
+                                Learn More
+                              </span>
+                            </span>
+                          </a>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d1c2cff elementor-invisible"
+                data-id="d1c2cff"
+                data-element_type="column"
+                data-settings='{"background_background":"classic","animation":"fadeInRight","animation_delay":"100"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-a173bae elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image"
+                    data-id="a173bae"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"fadeInRight","_animation_delay":"200"}'
+                    data-widget_type="image.default"
+                  >
+                    <div class="elementor-widget-container adc-1">
+                      <img
+                        width="800"
+                        height="532"
+                        src="wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1024x681.jpg"
+                        class="attachment-large size-large wp-image-1581"
+                        alt="business people hands shake for business partnership success, Shake hand concept"
+                        decoding="async"
+                        loading="lazy"
+                        srcset="https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1024x681.jpg 1024w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-300x200.jpg 300w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-768x511.jpg 768w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-1536x1022.jpg 1536w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-800x532.jpg 800w, https://templatekit.jegtheme.com/pajax/wp-content/uploads/sites/111/2021/06/business-people-hands-shake-for-business-partnership-success-shake-hand-concept-e1626231690663.jpg 1920w"
+                        sizes="(max-width: 800px) 100vw, 800px"
+                      />{" "}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            
-            </div></div>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-97d2989" data-id="97d2989" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-2354a0a jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="2354a0a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="jkit_icon_box.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_10_64e45de7530e0" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-paper-plane-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Switched jobs?</h2><p class="icon-box-description">Switched jobs in a financial year? You can upload multiple Form-16s and file returns</p>
+          </section>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-894dac4 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="894dac4"
+            data-element_type="section"
+          >
+            <div class="elementor-container elementor-column-gap-no">
+              <div
+                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47809c3"
+                data-id="47809c3"
+                data-element_type="column"
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading"
+                    data-id="833e261"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"fadeInUp"}'
+                    data-widget_type="jkit_heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd">
+                        <h3 class="heading-section-subtitle  style-color">
+                          OUR SERVICES
+                        </h3>
+                        <div class="heading-section-title  display-inline-block">
+                          <h2 class="heading-title">What We Provide</h2>
+                        </div>
+                        <div class="heading-section-separator">
+                          <div class="separator-wrapper style-solid"></div>
+                        </div>
+                        <div class="heading-section-description">
+                          <p>We've got you covered. You name it, we got it.</p>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                  <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-27f4fcf elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="27f4fcf"
+                    data-element_type="section"
+                  >
+                    <div class="elementor-container elementor-column-gap-default">
+                      <div
+                        class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d57bd56"
+                        data-id="d57bd56"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-33feb89 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="33feb89"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"100"}'
+                            data-widget_type="jkit_icon_box.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_8_64e45de74d8cd">
+                                <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
+                                  <div class="icon-box icon-box-header elementor-animation-">
+                                    <div class="icon style-color">
+                                      <i
+                                        aria-hidden="true"
+                                        class="jki jki-document-light"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                  <div class="icon-box icon-box-body">
+                                    <h2 class="title">Self Employed?</h2>
+                                    <p class="icon-box-description">
+                                      You can file your tax returns manually
+                                      without uploading Form-16. You can also
+                                      upload Form 26AS
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-0e345b9 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="0e345b9"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"100"}'
+                            data-widget_type="jkit_icon_box.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_9_64e45de75014d">
+                                <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
+                                  <div class="icon-box icon-box-header elementor-animation-">
+                                    <div class="icon style-color">
+                                      <i
+                                        aria-hidden="true"
+                                        class="jki jki-money-3-light"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                  <div class="icon-box icon-box-body">
+                                    <h2 class="title">Have pension income?</h2>
+                                    <p class="icon-box-description">
+                                      Add pension details in the Income Sources
+                                      Page. Also add any other interest earned,
+                                      if applicable
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-97d2989"
+                        data-id="97d2989"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-2354a0a jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="2354a0a"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"200"}'
+                            data-widget_type="jkit_icon_box.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_10_64e45de7530e0">
+                                <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
+                                  <div class="icon-box icon-box-header elementor-animation-">
+                                    <div class="icon style-color">
+                                      <i
+                                        aria-hidden="true"
+                                        class="jki jki-paper-plane-light"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                  <div class="icon-box icon-box-body">
+                                    <h2 class="title">Switched jobs?</h2>
+                                    <p class="icon-box-description">
+                                      Switched jobs in a financial year? You can
+                                      upload multiple Form-16s and file returns
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-6d0a6b4 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="6d0a6b4"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"200"}'
+                            data-widget_type="jkit_icon_box.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_11_64e45de75569c">
+                                <div class="jkit-icon-box-wrapper hover-from-botto hp-wwpbm">
+                                  <div class="icon-box icon-box-header elementor-animation-">
+                                    <div class="icon style-color">
+                                      <i
+                                        aria-hidden="true"
+                                        class="jki jki-save-money-light"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                  <div class="icon-box icon-box-body">
+                                    <h2 class="title">
+                                      Invested in Stocks & Mutual Funds
+                                    </h2>
+                                    <p class="icon-box-description">
+                                      Simply Upload your P&L Report and we will
+                                      auto-fill all your data and help you with
+                                      filing returns
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6cb3794"
+                        data-id="6cb3794"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-455daef jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="455daef"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"300"}'
+                            data-widget_type="jkit_icon_box.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_12_64e45de75801c">
+                                <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
+                                  <div class="icon-box icon-box-header elementor-animation-">
+                                    <div class="icon style-color">
+                                      <i
+                                        aria-hidden="true"
+                                        class="jki jki-chart2-light"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                  <div class="icon-box icon-box-body">
+                                    <h2 class="title">Have business income?</h2>
+                                    <p class="icon-box-description">
+                                      You can file returns by adding your
+                                      trading, speculative and presumptive
+                                      income
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                          <div
+                            class="elementor-element elementor-element-4be19db jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="4be19db"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"300"}'
+                            data-widget_type="jkit_icon_box.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_13_64e45de75b16a">
+                                <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
+                                  <div class="icon-box icon-box-header elementor-animation-">
+                                    <div class="icon style-color">
+                                      <i
+                                        aria-hidden="true"
+                                        class="jki jki-Document-Search-light"
+                                      ></i>
+                                    </div>
+                                  </div>
+                                  <div class="icon-box icon-box-body">
+                                    <h2 class="title">Don't have Form 16?</h2>
+                                    <p class="icon-box-description">
+                                      We will pre-fill your data from IT
+                                      Department and help you with filing
+                                      returns
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
             </div>
-            
-            </div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-6d0a6b4 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="6d0a6b4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="jkit_icon_box.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_11_64e45de75569c" ><div class="jkit-icon-box-wrapper hover-from-botto hp-wwpbm"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-save-money-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Invested in Stocks & Mutual Funds</h2><p class="icon-box-description">Simply Upload your P&L Report and we will auto-fill all your data and help you with filing returns</p>
-            </div>
-            
-            </div></div>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6cb3794" data-id="6cb3794" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-455daef jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="455daef" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}" data-widget_type="jkit_icon_box.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_12_64e45de75801c" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-chart2-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Have business income?</h2><p class="icon-box-description">You can file returns by adding your trading, speculative and presumptive income</p>
-            </div>
-            
-            </div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-4be19db jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="4be19db" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}" data-widget_type="jkit_icon_box.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_13_64e45de75b16a" ><div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-Document-Search-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Don't have Form 16?</h2><p class="icon-box-description">We will pre-fill your data from IT Department and help you with filing returns</p>
-            </div>
-            
-            </div></div>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-586435a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="586435a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-71acc6c" data-id="71acc6c" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-c8f9774 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c8f9774" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7121fff" data-id="7121fff" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-87bd289 elementor-invisible elementor-widget elementor-widget-jkit_fun_fact" data-id="87bd289" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_fun_fact.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_14_64e45de760881" ><div class="fun-fact-inner"><div class="icon elementor-animation-"><i aria-hidden="true" class="jki jki-users2-light"></i></div>
-            <div class="content">
-                <div class="number-wrapper"><span class="prefix"></span>
-        <span class="number" data-value="1452" data-animation-duration="3500">1,000</span>
-        <span class="suffix"></span><sup class="super">+</sup></div>
-                <h2 class="title">Happy Clients</h2>
-            </div>
-        </div></div>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-283a292" data-id="283a292" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-1d1ad45 elementor-invisible elementor-widget elementor-widget-jkit_fun_fact" data-id="1d1ad45" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;200&quot;}" data-widget_type="jkit_fun_fact.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_15_64e45de762a5f" ><div class="fun-fact-inner"><div class="icon elementor-animation-"><i aria-hidden="true" class="jki jki-Profile-light"></i></div>
-            <div class="content">
-                <div class="number-wrapper"><span class="prefix"></span>
-        <span class="number" data-value="1200" data-animation-duration="3500">1,00,000</span>
-        <span class="suffix"></span><sup class="super">+</sup></div>
-                <h2 class="title">ITR Filed</h2>
-            </div>
-        </div></div>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-e60f477" data-id="e60f477" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-46e370c elementor-invisible elementor-widget elementor-widget-jkit_fun_fact" data-id="46e370c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;300&quot;}" data-widget_type="jkit_fun_fact.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_16_64e45de764286" ><div class="fun-fact-inner"><div class="icon elementor-animation-"><i aria-hidden="true" class="jki jki-badge"></i></div>
-            <div class="content">
-                <div class="number-wrapper"><span class="prefix"></span>
-        <span class="number" data-value="10" data-animation-duration="3500">1,00,00,000</span>
-        <span class="suffix"></span><sup class="super">+</sup></div>
-                <h2 class="title">Tax Saved</h2>
-            </div>
-        </div></div>		</div>
-				</div>
-					</div>
-		</div>
-				{/* <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fbda3e6" data-id="fbda3e6" data-element_type="column">
+          </section>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-586435a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+            data-id="586435a"
+            data-element_type="section"
+            data-settings='{"background_background":"classic"}'
+          >
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-no">
+              <div
+                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-71acc6c"
+                data-id="71acc6c"
+                data-element_type="column"
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-c8f9774 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="c8f9774"
+                    data-element_type="section"
+                  >
+                    <div class="elementor-container elementor-column-gap-no">
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-7121fff"
+                        data-id="7121fff"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-87bd289 elementor-invisible elementor-widget elementor-widget-jkit_fun_fact"
+                            data-id="87bd289"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"100"}'
+                            data-widget_type="jkit_fun_fact.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_14_64e45de760881">
+                                <div class="fun-fact-inner">
+                                  <div class="icon elementor-animation-">
+                                    <i
+                                      aria-hidden="true"
+                                      class="jki jki-users2-light"
+                                    ></i>
+                                  </div>
+                                  <div class="content">
+                                    <div class="number-wrapper">
+                                      <span class="prefix"></span>
+                                      <span
+                                        class="number"
+                                        data-value="1452"
+                                        data-animation-duration="3500"
+                                      >
+                                        1,000
+                                      </span>
+                                      <span class="suffix"></span>
+                                      <sup class="super">+</sup>
+                                    </div>
+                                    <h2 class="title">Happy Clients</h2>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-283a292"
+                        data-id="283a292"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-1d1ad45 elementor-invisible elementor-widget elementor-widget-jkit_fun_fact"
+                            data-id="1d1ad45"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"200"}'
+                            data-widget_type="jkit_fun_fact.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_15_64e45de762a5f">
+                                <div class="fun-fact-inner">
+                                  <div class="icon elementor-animation-">
+                                    <i
+                                      aria-hidden="true"
+                                      class="jki jki-Profile-light"
+                                    ></i>
+                                  </div>
+                                  <div class="content">
+                                    <div class="number-wrapper">
+                                      <span class="prefix"></span>
+                                      <span
+                                        class="number"
+                                        data-value="1200"
+                                        data-animation-duration="3500"
+                                      >
+                                        1,00,000
+                                      </span>
+                                      <span class="suffix"></span>
+                                      <sup class="super">+</sup>
+                                    </div>
+                                    <h2 class="title">ITR Filed</h2>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-e60f477"
+                        data-id="e60f477"
+                        data-element_type="column"
+                      >
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                          <div
+                            class="elementor-element elementor-element-46e370c elementor-invisible elementor-widget elementor-widget-jkit_fun_fact"
+                            data-id="46e370c"
+                            data-element_type="widget"
+                            data-settings='{"_animation":"fadeInUp","_animation_delay":"300"}'
+                            data-widget_type="jkit_fun_fact.default"
+                          >
+                            <div class="elementor-widget-container">
+                              <div class="jeg-elementor-kit jkit-fun-fact align-center hover-from-left elementor-animation- jeg_module_6_16_64e45de764286">
+                                <div class="fun-fact-inner">
+                                  <div class="icon elementor-animation-">
+                                    <i
+                                      aria-hidden="true"
+                                      class="jki jki-badge"
+                                    ></i>
+                                  </div>
+                                  <div class="content">
+                                    <div class="number-wrapper">
+                                      <span class="prefix"></span>
+                                      <span
+                                        class="number"
+                                        data-value="10"
+                                        data-animation-duration="3500"
+                                      >
+                                        1,00,00,000
+                                      </span>
+                                      <span class="suffix"></span>
+                                      <sup class="super">+</sup>
+                                    </div>
+                                    <h2 class="title">Tax Saved</h2>
+                                  </div>
+                                </div>
+                              </div>{" "}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {/* <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-fbda3e6" data-id="fbda3e6" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-2bfe706 elementor-invisible elementor-widget elementor-widget-jkit_fun_fact" data-id="2bfe706" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;400&quot;}" data-widget_type="jkit_fun_fact.default">
 				<div class="elementor-widget-container">
@@ -462,15 +1224,15 @@ tax and business compliances. </p>						</div>
 				</div>
 					</div>
 		</div> */}
-							</div>
-		</section>
-					</div>
-		</div>
-							</div>
-		</section>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
 
-		{/* meet with expert section */}
-				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-668b16f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="668b16f" data-element_type="section">
+          {/* meet with expert section */}
+          {/* <section class="elementor-section elementor-top-section elementor-element elementor-element-668b16f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="668b16f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ad572bb" data-id="ad572bb" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -547,66 +1309,295 @@ tax and business compliances. </p>						</div>
 		</div>
 							</div>
 		</section> */}
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-fd6d5a1 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fd6d5a1" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0a77d07 elementor-invisible" data-id="0a77d07" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-07ea09e elementor-widget elementor-widget-jkit_testimonials" data-id="07ea09e" data-element_type="widget" data-widget_type="jkit_testimonials.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-testimonials arrow-bottom-middle style-2  jeg_module_6_25_64e45de78b978"  data-id="jeg_module_6_25_64e45de78b978" data-settings="{&quot;autoplay&quot;:true,&quot;autoplay_speed&quot;:3500,&quot;autoplay_hover_pause&quot;:false,&quot;show_navigation&quot;:false,&quot;navigation_left&quot;:&quot;&lt;i aria-hidden=\&quot;true\&quot; class=\&quot;fas fa-angle-left\&quot;&gt;&lt;\/i&gt;&quot;,&quot;navigation_right&quot;:&quot;&lt;i aria-hidden=\&quot;true\&quot; class=\&quot;fas fa-angle-right\&quot;&gt;&lt;\/i&gt;&quot;,&quot;show_dots&quot;:false,&quot;arrow_position&quot;:&quot;bottom&quot;,&quot;responsive&quot;:{&quot;desktop&quot;:{&quot;items&quot;:&quot;1&quot;,&quot;margin&quot;:&quot;15&quot;,&quot;breakpoint&quot;:1025},&quot;tablet&quot;:{&quot;items&quot;:&quot;1&quot;,&quot;margin&quot;:10,&quot;breakpoint&quot;:768},&quot;mobile&quot;:{&quot;items&quot;:1,&quot;margin&quot;:10,&quot;breakpoint&quot;:0}}}"><div class="testimonials-list">
-            <div class="testimonials-track"><div class="testimonial-item  elementor-repeater-item-2155b51">
-                    <div class="testimonial-box hover-from-left" >
-                        <div class="comment-header"><ul class="rating-stars"><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star-half"></i></li></ul></div>
-                <div class="comment-bio"><div class="bio-details">
-                <div class="profile-image"><img decoding="async" src="wp-content/uploads/sites/111/2021/06/happy-bearded-man-smiling-while-standing-with-crossed-arms-small-2.jpg"  alt="John Doe" /></div>
-                <span class="profile-info">
-                    <strong class="profile-name">John Doe</strong>
-                    <p class="profile-des">Marketing Manager</p>
-                </span>
-            </div><div class="icon-content"><i aria-hidden="true" class="fas fa-quote-left"></i></div></div>
-                <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-fd6d5a1 elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="fd6d5a1"
+            data-element_type="section"
+            data-settings='{"background_background":"gradient"}'
+          >
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-no">
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0a77d07 elementor-invisible"
+                data-id="0a77d07"
+                data-element_type="column"
+                data-settings='{"animation":"fadeInLeft"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-07ea09e elementor-widget elementor-widget-jkit_testimonials"
+                    data-id="07ea09e"
+                    data-element_type="widget"
+                    data-widget_type="jkit_testimonials.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div
+                        class="jeg-elementor-kit jkit-testimonials arrow-bottom-middle style-2  jeg_module_6_25_64e45de78b978"
+                        data-id="jeg_module_6_25_64e45de78b978"
+                        data-settings='{"autoplay":true,"autoplay_speed":3500,"autoplay_hover_pause":false,"show_navigation":false,"navigation_left":"&lt;i aria-hidden=\"true\" class=\"fas fa-angle-left\"&gt;&lt;\/i&gt;","navigation_right":"&lt;i aria-hidden=\"true\" class=\"fas fa-angle-right\"&gt;&lt;\/i&gt;","show_dots":false,"arrow_position":"bottom","responsive":{"desktop":{"items":"1","margin":"15","breakpoint":1025},"tablet":{"items":"1","margin":10,"breakpoint":768},"mobile":{"items":1,"margin":10,"breakpoint":0}}}'
+                      >
+                        <div class="testimonials-list">
+                          <div class="testimonials-track">
+                            <div class="testimonial-item  elementor-repeater-item-2155b51">
+                              <div class="testimonial-box hover-from-left">
+                                <div class="comment-header">
+                                  <ul class="rating-stars">
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star-half"
+                                      ></i>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="comment-bio">
+                                  <div class="bio-details">
+                                    <div class="profile-image">
+                                      <img
+                                        decoding="async"
+                                        src="wp-content/uploads/sites/111/2021/06/happy-bearded-man-smiling-while-standing-with-crossed-arms-small-2.jpg"
+                                        alt="John Doe"
+                                      />
+                                    </div>
+                                    <span class="profile-info">
+                                      <strong class="profile-name">
+                                        John Doe
+                                      </strong>
+                                      <p class="profile-des">
+                                        Marketing Manager
+                                      </p>
+                                    </span>
+                                  </div>
+                                  <div class="icon-content">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-quote-left"
+                                    ></i>
+                                  </div>
+                                </div>
+                                <div class="comment-content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="testimonial-item  elementor-repeater-item-caec452">
+                              <div class="testimonial-box hover-from-left">
+                                <div class="comment-header">
+                                  <ul class="rating-stars">
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="comment-bio">
+                                  <div class="bio-details">
+                                    <div class="profile-image">
+                                      <img
+                                        decoding="async"
+                                        src="wp-content/uploads/sites/111/2021/06/beautiful-woman-smiling-in-a-urban-park-2.jpg"
+                                        alt="Catrine Rafaela"
+                                      />
+                                    </div>
+                                    <span class="profile-info">
+                                      <strong class="profile-name">
+                                        Catrine Rafaela
+                                      </strong>
+                                      <p class="profile-des">Director</p>
+                                    </span>
+                                  </div>
+                                  <div class="icon-content">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-quote-left"
+                                    ></i>
+                                  </div>
+                                </div>
+                                <div class="comment-content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="testimonial-item  elementor-repeater-item-a582597">
+                              <div class="testimonial-box hover-from-left">
+                                <div class="comment-header">
+                                  <ul class="rating-stars">
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                    <li>
+                                      <i
+                                        aria-hidden="true"
+                                        class="fas fa-star"
+                                      ></i>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="comment-bio">
+                                  <div class="bio-details">
+                                    <div class="profile-image">
+                                      <img
+                                        decoding="async"
+                                        src="wp-content/uploads/sites/111/2021/06/Philip-West.jpg"
+                                        alt="Philip West"
+                                      />
+                                    </div>
+                                    <span class="profile-info">
+                                      <strong class="profile-name">
+                                        Philip West
+                                      </strong>
+                                      <p class="profile-des">SEO Analyst</p>
+                                    </span>
+                                  </div>
+                                  <div class="icon-content">
+                                    <i
+                                      aria-hidden="true"
+                                      class="fas fa-quote-left"
+                                    ></i>
+                                  </div>
+                                </div>
+                                <div class="comment-content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>{" "}
                     </div>
-                </div><div class="testimonial-item  elementor-repeater-item-caec452">
-                    <div class="testimonial-box hover-from-left" >
-                        <div class="comment-header"><ul class="rating-stars"><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li></ul></div>
-                <div class="comment-bio"><div class="bio-details">
-                <div class="profile-image"><img decoding="async" src="wp-content/uploads/sites/111/2021/06/beautiful-woman-smiling-in-a-urban-park-2.jpg"  alt="Catrine Rafaela" /></div>
-                <span class="profile-info">
-                    <strong class="profile-name">Catrine Rafaela</strong>
-                    <p class="profile-des">Director</p>
-                </span>
-            </div><div class="icon-content"><i aria-hidden="true" class="fas fa-quote-left"></i></div></div>
-                <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-21472a5 elementor-invisible"
+                data-id="21472a5"
+                data-element_type="column"
+                data-settings='{"animation":"fadeInRight"}'
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-a6e1a10 elementor-widget elementor-widget-jkit_heading"
+                    data-id="a6e1a10"
+                    data-element_type="widget"
+                    data-widget_type="jkit_heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="jeg-elementor-kit jkit-heading  align-right align-tablet- align-mobile- jeg_module_6_26_64e45de790970">
+                        <h3 class="heading-section-subtitle  style-color">
+                          TESTIMONIALS
+                        </h3>
+                        <div class="heading-section-title  display-inline-block">
+                          <h2 class="heading-title">What Our Clients Says</h2>
+                        </div>
+                        <div class="heading-section-separator">
+                          <div class="separator-wrapper style-solid"></div>
+                        </div>
+                        <div class="heading-section-description">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit. Aenean commodo ligula eget dolor aenean massa.
+                          </p>
+                        </div>
+                      </div>{" "}
                     </div>
-                </div><div class="testimonial-item  elementor-repeater-item-a582597">
-                    <div class="testimonial-box hover-from-left" >
-                        <div class="comment-header"><ul class="rating-stars"><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li><li><i aria-hidden="true" class="fas fa-star"></i></li></ul></div>
-                <div class="comment-bio"><div class="bio-details">
-                <div class="profile-image"><img decoding="async" src="wp-content/uploads/sites/111/2021/06/Philip-West.jpg"  alt="Philip West"/></div>
-                <span class="profile-info">
-                    <strong class="profile-name">Philip West</strong>
-                    <p class="profile-des">SEO Analyst</p>
-                </span>
-            </div><div class="icon-content"><i aria-hidden="true" class="fas fa-quote-left"></i></div></div>
-                <div class="comment-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-                    </div>
-                </div></div>
-        </div></div>		</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-21472a5 elementor-invisible" data-id="21472a5" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInRight&quot;}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-a6e1a10 elementor-widget elementor-widget-jkit_heading" data-id="a6e1a10" data-element_type="widget" data-widget_type="jkit_heading.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-right align-tablet- align-mobile- jeg_module_6_26_64e45de790970" ><h3 class="heading-section-subtitle  style-color">TESTIMONIALS</h3><div class="heading-section-title  display-inline-block"><h2 class="heading-title">What Our Clients Says</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div><div class="heading-section-description"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa.</p></div></div>		</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-3d392fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d392fc" data-element_type="section">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* <section class="elementor-section elementor-top-section elementor-element elementor-element-3d392fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d392fc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0de7d61" data-id="0de7d61" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -626,13 +1617,16 @@ tax and business compliances. </p>						</div>
 		</div>
 							</div>
 		</section> */}
-				<section class="elementor-section elementor-inner-section elementor-element elementor-element-29a0636b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="29a0636b" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-								</div>
-		</section>
+          <section
+            class="elementor-section elementor-inner-section elementor-element elementor-element-29a0636b elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="29a0636b"
+            data-element_type="section"
+          >
+            <div class="elementor-container elementor-column-gap-no"></div>
+          </section>
 
-		{/* latest project section */}
-				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-b62d432 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b62d432" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+          {/* latest project section */}
+          {/* <section class="elementor-section elementor-top-section elementor-element elementor-element-b62d432 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b62d432" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>
 							<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-46a3e78 elementor-invisible" data-id="46a3e78" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
@@ -692,8 +1686,8 @@ tax and business compliances. </p>						</div>
 							</div>
 		</section> */}
 
-		{/* drop down section */}
-				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-32c40f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="32c40f4" data-element_type="section">
+          {/* drop down section */}
+          {/* <section class="elementor-section elementor-top-section elementor-element elementor-element-32c40f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="32c40f4" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-74610e6 elementor-invisible" data-id="74610e6" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -745,55 +1739,198 @@ tax and business compliances. </p>						</div>
 							</div>
 		</section> */}
 
-		
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-eb6f18a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="eb6f18a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-							<div class="elementor-background-overlay"></div>
-							<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-881408f" data-id="881408f" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-d29aa56 elementor-invisible elementor-widget elementor-widget-jkit_heading" data-id="d29aa56" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="jkit_heading.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_34_64e45de7ce281" ><div class="heading-section-title  display-inline-block"><h2 class="heading-title">Still Confused About Our Features? <span class="style-color"><span>Get A Consultation</span></span></h2></div><div class="heading-section-description"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-d585718 elementor-align-center elementor-widget elementor-widget-button" data-id="d585718" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-button-wrapper">
-			<a href="#" class="elementor-button-link elementor-button elementor-size-md" role="button">
-						<span class="elementor-button-content-wrapper">
-						<span class="elementor-button-text">Contact Us</span>
-		</span>
-					</a>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-eb6f18a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="eb6f18a"
+            data-element_type="section"
+            data-settings='{"background_background":"classic"}'
+          >
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-881408f"
+                data-id="881408f"
+                data-element_type="column"
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-d29aa56 elementor-invisible elementor-widget elementor-widget-jkit_heading"
+                    data-id="d29aa56"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"fadeIn"}'
+                    data-widget_type="jkit_heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_34_64e45de7ce281">
+                        <div class="heading-section-title  display-inline-block">
+                          <h2 class="heading-title">
+                            Still Confused About Our Features?{" "}
+                            <span class="style-color">
+                              <span>Get A Consultation</span>
+                            </span>
+                          </h2>
+                        </div>
+                        <div class="heading-section-description">
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry. Lorem Ipsum has been the
+                            industry's standard dummy text ever since the 1500s.
+                          </p>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-d585718 elementor-align-center elementor-widget elementor-widget-button"
+                    data-id="d585718"
+                    data-element_type="widget"
+                    data-widget_type="button.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-button-wrapper">
+                        <a
+                          href="#"
+                          class="elementor-button-link elementor-button elementor-size-md"
+                          role="button"
+                        >
+                          <span class="elementor-button-content-wrapper">
+                            <span class="elementor-button-text">
+                              Contact Us
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-		<section class="elementor-section elementor-top-section elementor-element elementor-element-3d392fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3d392fc" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0de7d61" data-id="0de7d61" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-469deb0 elementor-invisible elementor-widget elementor-widget-jkit_heading" data-id="469deb0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="jkit_heading.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_27_64e45de7948fa" ><div class="heading-section-title  display-inline-block"><h2 class="heading-title">Our Partner</h2></div><div class="heading-section-separator"><div class="separator-wrapper style-solid"></div></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-b3f6d65 elementor-invisible elementor-widget elementor-widget-image-carousel" data-id="b3f6d65" data-element_type="widget" data-settings="{&quot;slides_to_show&quot;:&quot;5&quot;,&quot;navigation&quot;:&quot;none&quot;,&quot;autoplay_speed&quot;:&quot;1000&quot;,&quot;speed&quot;:&quot;100&quot;,&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;slides_to_show_tablet&quot;:&quot;3&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;}" data-widget_type="image-carousel.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
-			<div class="elementor-image-carousel swiper-wrapper">
-								<div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-global-group-company.png" alt="logo-global-group-company" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-square-mediafirst.png" alt="logo-square-mediafirst" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-black-box.png" alt="logo-black-box" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-morex.png" alt="logo-morex" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-monaco.png" alt="logo-monaco" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-construct.png" alt="logo-construct" /></figure></div><div class="swiper-slide"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="wp-content/uploads/sites/111/2021/06/logo-growny-designer.png" alt="logo-growny-designer" /></figure></div>			</div>
-																</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
+          <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-3d392fc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="3d392fc"
+            data-element_type="section"
+          >
+            <div class="elementor-container elementor-column-gap-default">
+              <div
+                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0de7d61"
+                data-id="0de7d61"
+                data-element_type="column"
+              >
+                <div class="elementor-widget-wrap elementor-element-populated">
+                  <div
+                    class="elementor-element elementor-element-469deb0 elementor-invisible elementor-widget elementor-widget-jkit_heading"
+                    data-id="469deb0"
+                    data-element_type="widget"
+                    data-settings='{"_animation":"fadeInUp"}'
+                    data-widget_type="jkit_heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_27_64e45de7948fa">
+                        <div class="heading-section-title  display-inline-block">
+                          <h2 class="heading-title">Our Partner</h2>
+                        </div>
+                        <div class="heading-section-separator">
+                          <div class="separator-wrapper style-solid"></div>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-b3f6d65 elementor-invisible elementor-widget elementor-widget-image-carousel"
+                    data-id="b3f6d65"
+                    data-element_type="widget"
+                    data-settings='{"slides_to_show":"5","navigation":"none","autoplay_speed":"1000","speed":"100","_animation":"fadeIn","slides_to_show_tablet":"3","autoplay":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","infinite":"yes"}'
+                    data-widget_type="image-carousel.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div
+                        class="elementor-image-carousel-wrapper swiper-container"
+                        dir="ltr"
+                      >
+                        <div class="elementor-image-carousel swiper-wrapper">
+                          <div class="swiper-slide">
+                            <figure class="swiper-slide-inner">
+                              <img
+                                decoding="async"
+                                class="swiper-slide-image"
+                                src="wp-content/uploads/sites/111/2021/06/logo-global-group-company.png"
+                                alt="logo-global-group-company"
+                              />
+                            </figure>
+                          </div>
+                          <div class="swiper-slide">
+                            <figure class="swiper-slide-inner">
+                              <img
+                                decoding="async"
+                                class="swiper-slide-image"
+                                src="wp-content/uploads/sites/111/2021/06/logo-square-mediafirst.png"
+                                alt="logo-square-mediafirst"
+                              />
+                            </figure>
+                          </div>
+                          <div class="swiper-slide">
+                            <figure class="swiper-slide-inner">
+                              <img
+                                decoding="async"
+                                class="swiper-slide-image"
+                                src="wp-content/uploads/sites/111/2021/06/logo-black-box.png"
+                                alt="logo-black-box"
+                              />
+                            </figure>
+                          </div>
+                          <div class="swiper-slide">
+                            <figure class="swiper-slide-inner">
+                              <img
+                                decoding="async"
+                                class="swiper-slide-image"
+                                src="wp-content/uploads/sites/111/2021/06/logo-morex.png"
+                                alt="logo-morex"
+                              />
+                            </figure>
+                          </div>
+                          <div class="swiper-slide">
+                            <figure class="swiper-slide-inner">
+                              <img
+                                decoding="async"
+                                class="swiper-slide-image"
+                                src="wp-content/uploads/sites/111/2021/06/logo-monaco.png"
+                                alt="logo-monaco"
+                              />
+                            </figure>
+                          </div>
+                          <div class="swiper-slide">
+                            <figure class="swiper-slide-inner">
+                              <img
+                                decoding="async"
+                                class="swiper-slide-image"
+                                src="wp-content/uploads/sites/111/2021/06/logo-construct.png"
+                                alt="logo-construct"
+                              />
+                            </figure>
+                          </div>
+                          <div class="swiper-slide">
+                            <figure class="swiper-slide-inner">
+                              <img
+                                decoding="async"
+                                class="swiper-slide-image"
+                                src="wp-content/uploads/sites/111/2021/06/logo-growny-designer.png"
+                                alt="logo-growny-designer"
+                              />
+                            </figure>
+                          </div>{" "}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
 
-		{/* blog section */}
-				{/* <section class="elementor-section elementor-top-section elementor-element elementor-element-27f5eda elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27f5eda" data-element_type="section">
+          {/* blog section */}
+          {/* <section class="elementor-section elementor-top-section elementor-element elementor-element-27f5eda elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="27f5eda" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-37a5271" data-id="37a5271" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -852,10 +1989,10 @@ tax and business compliances. </p>						</div>
 		</div>
 							</div>
 		</section> */}
-							</div>
-    </body>
+        </div>
+      </body>
     </>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;

@@ -8,12 +8,16 @@ const Service = () => {
       <div className={classes.strip}>
         <h1 className="">For Individual</h1>
       </div>
+      <hr />
+
       <div className={classes.container}>
         {Data.map((plan) => (
           <>
             <div className={classes.card}>
               <div className={classes.top}>
-                <img src="https://picsum.photos/50" alt="" />
+                <center>
+                  <img src="https://picsum.photos/50" alt="" />{" "}
+                </center>
                 <h3 className={classes.title}>
                   <u> {plan.title} </u>
                 </h3>
@@ -24,15 +28,15 @@ const Service = () => {
                   </p>
                 </h4>
                 <div className={classes.content}>
-                  <p>
-                    Cover income from
-                    <ul>
-                      {plan.covers.map((cover) => (
-                        <li>{cover}</li>
-                      ))}
-                    </ul>
-                  </p>
+                  {" "}
+                  <strong> Cover income from </strong>{" "}
                 </div>
+                <ul>
+                  {plan.covers.map((cover) => (
+                    <li>{cover}</li>
+                  ))}
+                </ul>
+
                 <div className={classes.but}>
                   <button className={classes.greenButton}>BUY NOW</button>
                 </div>
