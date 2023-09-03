@@ -51,6 +51,8 @@
 
 .benifits {
     font-size: 50px;
+    text-align: center;
+    color: #184341;
 }
 
 .cardContainer {
@@ -58,7 +60,7 @@
     flex-wrap: wrap;
     /* justify-content: space-between; */
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .card {
@@ -69,4 +71,11 @@
     height: 350px;
     width: 300px;
     text-align: center;
+    padding: 20px;
+}
+
+hr {
+    width: 40%;
+    /* color: #ffb400; */
+    border: 2px solid #ffb400;
 }

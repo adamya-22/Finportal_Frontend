@@ -3,14 +3,12 @@ import classes from "./Benifits.module.css";
 import BenifitsData from "./BenifitsData";
 const Benifits = () => {
   return (
-    <div className="">
-      <div className={classes.sectionContainer}>
-        <div className={classes.textContent}>
-          <h1 className={classes.benifits}>
-            Benifits of E-filling <br /> income tax returns <br />
-            ITR
-          </h1>
-        </div>
+    <div>
+      <div>
+        <h1 className={classes.benifits}>
+          Benifits of E-filling income tax returns ITR
+        </h1>
+        <hr />
       </div>
       <div className={classes.cardContainer}>
         {BenifitsData.map((item) => (

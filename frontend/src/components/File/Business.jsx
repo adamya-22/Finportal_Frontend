@@ -8,6 +8,7 @@ const Business = () => {
       <div className={classes.strip}>
         <h1 className="">For Individual</h1>
       </div>
+      <hr />
       <div className={classes.container}>
         {Plan.map((plan) => (
           <>
@@ -24,15 +25,15 @@ const Business = () => {
                   </p>
                 </h4>
                 <div className={classes.content}>
-                  <p>
-                    Cover income from
-                    <ul>
-                      {plan.covers.map((cover) => (
-                        <li>{cover}</li>
-                      ))}
-                    </ul>
-                  </p>
+                  {" "}
+                  <strong> Cover income from </strong>
                 </div>
+                <ul>
+                  {plan.covers.map((cover) => (
+                    <li>{cover}</li>
+                  ))}
+                </ul>
+
                 <div className={classes.but}>
                   <button className={classes.greenButton}>BUY NOW</button>
                 </div>

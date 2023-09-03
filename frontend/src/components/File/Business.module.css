@@ -49,7 +49,7 @@
 
 .greenButton {
 
-    background-color: #90EE90;
+    background-color: #ffb400;
     color: white;
     height: 40px;
 
@@ -59,6 +59,10 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
+}
+
+.greenButton:hover {
+    color: #184341;
 }
 
 .but {
@@ -76,9 +80,22 @@
     align-items: center;
     width: 100%;
     height: 60px;
-    border-style: solid;
+    /* border-style: solid;
     border-color: #90EE90;
-    background-color: #90EE90;
+    background-color: #90EE90; */
+}
+
+.strip h1 {
+    color: #184341;
+}
+
+.title {
+    text-align: center;
+    color: #184341;
+}
+
+.content {
+    text-align: center;
 }
 
 .hori {
@@ -98,4 +115,12 @@
 .titleCenter {
     padding-top: 30px;
     text-align: center;
+    color: #184341;
+    /* padding: 50px; */
+}
+
+hr {
+    width: 40%;
+    /* color: #ffb400; */
+    border: 2px solid #ffb400;
 }
