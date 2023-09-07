@@ -9,27 +9,23 @@
 .signcont{
     flex-direction: column;
 }
-h1 {
-    text-align: center;
-    color: #FFB400; /* Updated color */
-}
 
 .form-group {
     display: flex;
     justify-content: space-between;
 }
 
-input {
+/* input {
     flex: 1;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-}
+} */
 
-button {
-    background-color: #FFB400; /* Updated color */
+/* button {
+    background-color: #FFB400; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -37,11 +33,11 @@ button {
     font-size: 1.2rem;
     cursor: pointer;
     margin-top: 10px;
-}
+} */
 
-button:hover {
-    background-color: #FF9500; /* Slightly darker shade on hover */
-}
+/* button:hover {
+    background-color: #FF9500;
+} */
 
 .google{
     padding: 15px;
@@ -91,7 +87,7 @@ button:hover {
   }
 
   
-  .container {
+  /* .container {
     display: flex;
     width: 100%;
     max-width: 800px;
@@ -99,7 +95,7 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-  }
+  } */
   
   .left-panel {
     flex: 1;
@@ -131,50 +127,7 @@ button:hover {
     margin-bottom: 20px;
   }
   
-  form {
-    display: flex;
-    flex-direction: column;
-  }
   
-  input {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
-  
-  button {
-    background-color: #FFB400; /* Updated color */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #FF9500; /* Slightly darker shade on hover */
-  }
-  
-  p {
-    font-size: 1rem;
-    text-align: center;
-  }
-  
-  a {
-    color: #FFB400; /* Updated color */
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  h2{
-    color: white;
-  }
   .logincont {
     display: flex;
     width: 100%;

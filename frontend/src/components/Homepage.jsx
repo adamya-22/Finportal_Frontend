@@ -1,8 +1,188 @@
-import React from "react";
+import React,{useEffect, useRef} from "react";
 import { NavLink } from "react-router-dom";
+import {gsap} from 'gsap'
 import "../styles/homepage.css";
+import "../styles/hp.scss"
 
 const Homepage = () => {
+  const slideshowRef = useRef(null);
+  const timelineRef = useRef(null);
+  const observerRef = useRef(null);
+
+  useEffect(() => {
+    const imageSlides = document.getElementsByClassName('imageSlides');
+    const circles = document.getElementsByClassName('circle');
+    const leftArrow = document.getElementById('leftArrow');
+    const rightArrow = document.getElementById('rightArrow');
+    let counter = 0;
+
+    function hideImages() {
+      for (let i = 0; i < imageSlides.length; i++) {
+        imageSlides[i].style.opacity = 0;
+      }
+    }
+
+    function removeDots() {
+      for (let i = 0; i < imageSlides.length; i++) {
+        circles[i].classList.remove('dot');
+      }
+    }
+
+    function imageLoop() {
+      const currentImage = imageSlides[counter];
+      const currentDot = circles[counter];
+      if (currentImage && currentDot) {
+        currentImage.style.opacity = 1;
+        removeDots();
+        currentDot.classList.add('dot');
+      }
+      counter++;
+      
+      timelineRef.current = gsap.timeline();
+      timelineRef.current
+        .fromTo(".sl-h6", {
+          opacity: 0
+        },
+        {
+          opacity: 1,
+          duration: 1
+        })
+        .fromTo(".sl-h1", {
+          opacity: 0
+        },
+        {
+          opacity: 1,
+          duration: 1
+        }, "-=0.5") // Add a delay before setting opacity to 0
+        .fromTo(".sl-p", {
+          opacity: 0
+        },
+        {
+          opacity: 1,
+          duration: 1
+        }, "-=0.5") // Add a delay before setting opacity to 0
+        .fromTo(".sl-btn", {
+          opacity: 0
+        },
+        {
+          opacity: 1,
+          duration: 1
+        }, "-=0.5"); // Add a delay before setting opacity to 0
+    }
+
+    function arrowClick(e) {
+      const target = e.target;
+      if (target === leftArrow) {
+        clearInterval(slideshowRef.current);
+        if (timelineRef.current) {
+          timelineRef.current.kill();
+        }
+        hideImages();
+        removeDots();
+        if (counter === 1) {
+          counter = imageSlides.length - 1;
+          imageLoop();
+          slideshowRef.current = setInterval(slideshow, 8000);
+        } else {
+          counter--;
+          counter--;
+          imageLoop();
+          slideshowRef.current = setInterval(slideshow, 8000);
+        }
+      } else if (target === rightArrow) {
+        clearInterval(slideshowRef.current);
+        if (timelineRef.current) {
+          timelineRef.current.kill();
+        }
+        hideImages();
+        removeDots();
+        if (counter === imageSlides.length) {
+          counter = 0;
+          imageLoop();
+          slideshowRef.current = setInterval(slideshow, 8000);
+        } else {
+          imageLoop();
+          slideshowRef.current = setInterval(slideshow, 8000);
+        }
+      }
+    }
+
+    // leftArrow.addEventListener('click', arrowClick);
+    // rightArrow.addEventListener('click', arrowClick);
+
+    function slideshow() {
+      if (counter < imageSlides.length) {
+        imageLoop();
+      } else {
+        counter = 0;
+        hideImages();
+        imageLoop();
+      }
+    }
+
+    slideshowRef.current = setInterval(slideshow, 8000);
+    slideshow();
+    // IntersectionObserver Configuration
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.25
+    };
+
+    observerRef.current = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          if (entry.target.classList.contains('hide-left')) {
+            entry.target.classList.add('show-left');
+          }
+          if (entry.target.classList.contains('hide-right')) {
+            entry.target.classList.add('show-right');
+          }
+          if (entry.target.classList.contains('hide-top')) {
+            entry.target.classList.add('show-top');
+          }
+          if (entry.target.classList.contains('hide-bottom')) {
+            entry.target.classList.add('show-bottom');
+          }
+        } else {
+          if (entry.target.classList.contains('hide-left')) {
+            entry.target.classList.remove('show-left');
+          }
+          if (entry.target.classList.contains('hide-right')) {
+            entry.target.classList.remove('show-right');
+          }
+          if (entry.target.classList.contains('hide-top')) {
+            entry.target.classList.remove('show-top');
+          }
+          if (entry.target.classList.contains('hide-bottom')) {
+            entry.target.classList.remove('show-bottom');
+          }
+        }
+      });
+    }, options);
+
+    const hideRightElements = document.querySelectorAll('.hide-right');
+    hideRightElements.forEach((el) => observerRef.current.observe(el));
+
+    const hideLeftElements = document.querySelectorAll('.hide-left');
+    hideLeftElements.forEach((el) => observerRef.current.observe(el));
+
+    const hideTopElements = document.querySelectorAll('.hide-top');
+    hideTopElements.forEach((el) => observerRef.current.observe(el));
+
+    const hideBottomElements = document.querySelectorAll('.hide-bottom');
+    hideBottomElements.forEach((el) => observerRef.current.observe(el));
+
+    return () => {
+      clearInterval(slideshowRef.current);
+      if (timelineRef.current) {
+        timelineRef.current.kill();
+      }
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, []);
   return (
     <>
       <body class="home page-template-default page page-id-6 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-6">
@@ -27,7 +207,7 @@ const Homepage = () => {
                 <div class="elementor-widget-wrap"></div>
               </div>
               <div
-                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-526d37f"
+                class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-526d37f hide-bottom show-bottom"
                 data-id="526d37f"
                 data-element_type="column"
               >
@@ -93,7 +273,7 @@ const Homepage = () => {
                           >
                             <div class="elementor-widget-container">
                               <div class="elementor-button-wrapper">
-                                <a
+                                {/* <a
                                   href="/itr"
                                   class="elementor-button-link elementor-button elementor-size-md"
                                   role="button"
@@ -103,7 +283,13 @@ const Homepage = () => {
                                       Get Started
                                     </span>
                                   </span>
-                                </a>
+                                </a> */}
+                                {/* <div class="mc">
+                                <a class="learn-more" href="/itr">Learn More</a>
+                                </div> */}
+                                <NavLink to="/itr" className="mc">
+                                <a class="learn-more">Learn More</a>
+                                </NavLink>
                               </div>
                             </div>
                           </div>
@@ -379,7 +565,7 @@ const Homepage = () => {
                 data-element_type="column"
                 data-settings='{"background_background":"classic","animation":"fadeInUp"}'
               >
-                <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-widget-wrap elementor-element-populated test hide-bottom show-bottom">
                   <div class="elementor-background-overlay"></div>
                   <div
                     class="elementor-element elementor-element-caba6e5 elementor-widget elementor-widget-metform"
@@ -415,16 +601,20 @@ const Homepage = () => {
                               data-form-type="contact_form"
                               data-stop-vertical-effect=""
                             >
+                              
                               <div className="jeg-elementor-kit jkit-heading  align-left align-tablet- align-mobile- jeg_module_6_5_64e45de72893c">
-                                <h3 className="heading-section-subtitle  style-color">
+                                <h3 className="heading-section-subtitle  style-color"
+                                >
                                   SEND A MESSAGE
                                 </h3>
+                                
                                 <div className="heading-section-title  display-inline-block">
                                   <h2 className="heading-title">
                                     Request a call back
                                   </h2>
                                 </div>
                               </div>
+
                               <div className="hp-form">
                                 <form action="">
                                   <input type="text" placeholder="Your Name" />
@@ -758,17 +948,8 @@ const Homepage = () => {
                   >
                     <div class="elementor-widget-container">
                       <div class="elementor-button-wrapper">
-                        <NavLink to="/itr">
-                          <a
-                            class="elementor-button-link elementor-button elementor-size-md"
-                            role="button"
-                          >
-                            <span class="elementor-button-content-wrapper">
-                              <span class="elementor-button-text">
-                                Learn More
-                              </span>
-                            </span>
-                          </a>
+                        <NavLink to="/itr" className="mc">
+                                <a class="learn-more">Learn More</a>
                         </NavLink>
                       </div>
                     </div>
@@ -1788,6 +1969,7 @@ const Homepage = () => {
                   >
                     <div class="elementor-widget-container">
                       <div class="elementor-button-wrapper">
+                        {/* <NavLink to="/contact">
                         <a
                           href="#"
                           class="elementor-button-link elementor-button elementor-size-md"
@@ -1799,6 +1981,10 @@ const Homepage = () => {
                             </span>
                           </span>
                         </a>
+                        </NavLink> */}
+                        <NavLink to="/contact" className="mc">
+                          <a class="learn-more">Contact Us</a>
+                          </NavLink>
                       </div>
                     </div>
                   </div>
