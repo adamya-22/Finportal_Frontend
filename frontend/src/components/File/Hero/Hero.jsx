@@ -1,6 +1,6 @@
 import React from "react";
-import Piggy from "./piggy.jpg";
-import mpic from "./mpic.jpg"
+// import Piggy from "./piggy.jpg";
+import mpic from "../mpic.jpg";
 import classes from "./Hero.module.css";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 const Hero = () => {
