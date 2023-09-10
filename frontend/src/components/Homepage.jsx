@@ -1,6 +1,7 @@
 import React,{useEffect, useRef} from "react";
 import { NavLink } from "react-router-dom";
 import {gsap} from 'gsap'
+import NumberAnimation from "./NumberAnimation.jsx";
 import "../styles/homepage.css";
 import "../styles/hp.scss"
 
@@ -183,6 +184,8 @@ const Homepage = () => {
       }
     };
   }, []);
+
+
   return (
     <>
       <body class="home page-template-default page page-id-6 ehf-header ehf-footer ehf-template-hello-elementor ehf-stylesheet-hello-elementor jkit-color-scheme elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-6">
@@ -1282,15 +1285,20 @@ const Homepage = () => {
                                     ></i>
                                   </div>
                                   <div class="content">
-                                    <div class="number-wrapper">
+                                    <div class="number-wrapper cus-counter">
                                       <span class="prefix"></span>
-                                      <span
+                                      {/* <span
                                         class="number"
                                         data-value="1452"
                                         data-animation-duration="3500"
                                       >
                                         1,000
-                                      </span>
+                                      </span> */}
+                                           <NumberAnimation initialValue={0} finalValue={1000} />
+
+
+
+
                                       <span class="suffix"></span>
                                       <sup class="super">+</sup>
                                     </div>
@@ -1325,15 +1333,19 @@ const Homepage = () => {
                                     ></i>
                                   </div>
                                   <div class="content">
-                                    <div class="number-wrapper">
+                                    <div class="number-wrapper cus-counter">
                                       <span class="prefix"></span>
-                                      <span
+                                      {/* <span
                                         class="number"
                                         data-value="1200"
                                         data-animation-duration="3500"
                                       >
                                         1,00,000
-                                      </span>
+                                      </span> */}
+                                      
+                                      <NumberAnimation initialValue={0} finalValue={100000} />
+
+
                                       <span class="suffix"></span>
                                       <sup class="super">+</sup>
                                     </div>
@@ -1368,15 +1380,21 @@ const Homepage = () => {
                                     ></i>
                                   </div>
                                   <div class="content">
-                                    <div class="number-wrapper">
+                                    <div class="number-wrapper cus-counter">
                                       <span class="prefix"></span>
-                                      <span
+                                      {/* <span
                                         class="number"
                                         data-value="10"
                                         data-animation-duration="3500"
                                       >
                                         1,00,00,000
-                                      </span>
+                                      </span> */}
+
+                                      <NumberAnimation initialValue={0} finalValue={10000000} />
+
+                                     
+
+
                                       <span class="suffix"></span>
                                       <sup class="super">+</sup>
                                     </div>

@@ -47,7 +47,7 @@ const Navbar = () => {
 							<li class="elementor-icon-list-item elementor-inline-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
-										<span class="elementor-icon-list-text">Jl. Raya Puputan No 142, Bali - 80234</span>
+										<span class="elementor-icon-list-text">217-218 Rajhans Olympia, Bhatar, Surat, Gujarat, India</span>
 									</li>
 						</ul>
 				</div>
@@ -62,7 +62,7 @@ const Navbar = () => {
 							<li class="elementor-icon-list-item elementor-inline-item">
 											<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="fas fa-envelope"></i>						</span>
-										<span class="elementor-icon-list-text">pajax@mail.com</span>
+										<span class="elementor-icon-list-text">info@finportalin.com</span>
 									</li>
 						</ul>
 				</div>

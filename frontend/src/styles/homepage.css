@@ -200,4 +200,7 @@ transform: translateY(150px);
   position: absolute;
   width: 100% !important;
 }
+.cus-counter{
+  display: -webkit-inline-box;
+}
   
