@@ -195,6 +195,9 @@ transform: translateY(150px);
   }
 }
 
-
-  
+/* navbar */
+.nav-logo{
+  position: absolute;
+  width: 100% !important;
+}
   

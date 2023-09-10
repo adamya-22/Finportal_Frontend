@@ -115,3 +115,10 @@ footer{
     }
 }
 
+.alt-logo{
+    display: flex;
+    align-items: flex-end;
+}
+.alt-logo h1{
+    color: #FFB400;
+}
