@@ -43,7 +43,7 @@ const Hero = () => {
           class="elementor elementor-6"
         >
           <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-f0dd4c4 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+            class="elementor-section elementor-top-section elementor-element elementor-element-f0dd4c4 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle cust-itr-hero"
             data-id="f0dd4c4"
             data-element_type="section"
             data-settings='{"background_background":"classic"}'

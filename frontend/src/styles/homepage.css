@@ -203,4 +203,8 @@ transform: translateY(150px);
 .cus-counter{
   display: -webkit-inline-box;
 }
+
+.cust-itr-hero{
+  background-image: url(../components/File/mpic.jpg) !important;
+}
   
