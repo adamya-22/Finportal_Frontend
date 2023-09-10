@@ -1,7 +1,7 @@
 // data.js
 export const plans = [
   {
-    title: "Salary or House Rent Income",
+    title: "Salary Rent Income",
     amountRange: "₹ 999 - ₹ 2499",
     savings: "Save ~60%",
     covers: [
