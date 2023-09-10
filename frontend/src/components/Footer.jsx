@@ -32,7 +32,7 @@ const Footer = () => {
             <div class="f21"><h3>My Account</h3></div>
             <div class="f22"><a href="#">My Account</a></div>
             <div class="f22"><a href="#">Contact</a></div>
-            <div class="f22"><a href="#">Shop</a></div>
+            <div class="f22"><a href="#">Plans</a></div>
         </div>
         <div class="f1">
             <div class="f21"><h3>Join our Newsletter Now</h3></div>
