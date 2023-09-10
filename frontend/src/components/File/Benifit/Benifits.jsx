@@ -10,18 +10,25 @@ const Benifits = () => {
         </h1>
         <hr />
       </div>
+
       <div className={classes.cardContainer}>
         {BenifitsData.map((item) => (
           <>
             <div className={classes.card}>
-              <img src={item.imageSrc} alt="Card" className="image" />
-              <div className="data">
-                <h3> {item.data} </h3>
-              </div>
-              <div className="about">
-                {" "}
-                <p> {item.about} </p>
-              </div>
+              <img
+                src={item.imageSrc}
+                alt="Card"
+                className={classes.imageItem}
+              />
+              <center>
+                <div className={classes.data}>
+                  <h3> {item.data} </h3>
+                </div>
+                <div className={classes.about}>
+                  {" "}
+                  <p> {item.about} </p>
+                </div>
+              </center>
             </div>
           </>
         ))}

@@ -1,8 +1,8 @@
-import React from 'react'
-import Hero from "./File/Hero";
-import Service from "./File/Service";
-import Business from "./File/Business";
-import Benifits from "./File/Benifits";
+import React from "react";
+import Hero from "./File/Hero/Hero";
+import Service from "./File/Servis/Service";
+import Business from "./File/Business/Business";
+import Benifits from "./File/Benifit/Benifits";
 
 const ItrFiling = () => {
   return (
@@ -12,7 +12,7 @@ const ItrFiling = () => {
       <Business />
       <Benifits />
     </>
-  )
-}
+  );
+};
 
-export default ItrFiling
+export default ItrFiling;
