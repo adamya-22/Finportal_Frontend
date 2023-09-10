@@ -1,6 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 const Navbar = () => {
+	const [isMenuActive, setIsMenuActive] = useState(false);
+	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+	const handleOpenMenu = () => {
+		setIsMenuActive(true);
+	};
+
+	const handleCloseMenu = () => {
+		setIsMenuActive(false);
+	};
+	const handleDropdownToggle = () => {
+		setIsDropdownOpen(!isDropdownOpen);
+	  };
   return (
     <>
     <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
@@ -70,8 +83,10 @@ const Navbar = () => {
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-232813c elementor-widget elementor-widget-jkit_nav_menu" data-id="232813c" data-element_type="widget" data-widget_type="jkit_nav_menu.default">
 				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_6_1_64e45de704ab4"  data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-angle-down&quot;&gt;&lt;/i&gt;"><button class="jkit-hamburger-menu"><i aria-hidden="true" class="fas fa-bars"></i></button>
-        <div class="jkit-menu-wrapper"><div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-109">
+			<div  class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_6_1_64e45de704ab4"  data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-angle-down&quot;&gt;&lt;/i&gt;"><button class="jkit-hamburger-menu" onClick={handleOpenMenu}><i aria-hidden="true" class="fas fa-bars"></i></button>
+        {/* <div class="jkit-menu-wrapper"> */}
+        <div className={`jkit-menu-wrapper ${isMenuActive ? 'active' : ''}`}>
+			<div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-109">
 			<NavLink to='/'>Home</NavLink>
 		</li>
 <li id="menu-item-6132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6132">
@@ -81,8 +96,8 @@ const Navbar = () => {
 		<NavLink to='/contact'>Contact Us</NavLink>
 	</li>
 <li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114">
-	<NavLink to='#'>Account</NavLink>
-<ul class="sub-menu">
+	<NavLink className="nav-dropdown-opcl" to='#' onClick={handleDropdownToggle}>Account</NavLink>
+<ul className={`sub-menu ${isDropdownOpen ? 'dropdown-open' : ''}`}>
 	<li id="menu-item-6133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6133">
 		<NavLink to='/signin'>Signin</NavLink>
 	</li>
@@ -91,39 +106,16 @@ const Navbar = () => {
 		</li>
 </ul>
 </li>
-{/* <li id="menu-item-115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-115"><a href="#">Pages</a>
-<ul class="sub-menu">
-	<li id="menu-item-6135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6135"><a href="our-team/index.html">Our Team</a></li>
-	<li id="menu-item-6136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6136"><a href="pricing/index.html">Pricing</a></li>
-	<li id="menu-item-6137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6137"><a href="faq/index.html">FAQ</a></li>
-	<li id="menu-item-6138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6138"><a href="404-page/index.html">404 Page</a></li>
-</ul>
-</li> */}
-{/* <li id="menu-item-6140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6140"><a href="#">Blog</a>
-<ul class="sub-menu">
-	<li id="menu-item-6141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6141"><a href="blog/index.html">Blog</a></li>
-	<li id="menu-item-6142" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-6142"><a href="2021/06/23/filing-payroll-taxes-electronically-makes-good-business-sense/index.html">Single Blog</a></li>
-</ul>
-</li> */}
-{/* <li id="menu-item-6143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6143"><a href="contact-us/index.html">Contact</a></li> */}
 </ul></div>
             <div class="jkit-nav-identity-panel">
                 <div class="jkit-nav-site-title"><a href="https://templatekit.jegtheme.com/pajax" class="jkit-nav-logo"></a></div>
-                <button class="jkit-close-menu"><i aria-hidden="true" class="fas fa-times"></i></button>
+                <button class="jkit-close-menu" onClick={handleCloseMenu}><i aria-hidden="true" class="fas fa-times"></i></button>
             </div>
         </div>
         <div class="jkit-overlay"></div></div>		</div>
 				</div>
 					</div>
 		</div>
-				{/* <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a425b1b" data-id="a425b1b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-ef22515 elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-jkit_button" data-id="ef22515" data-element_type="widget" data-widget_type="jkit_button.default">
-				<div class="elementor-widget-container">
-			<div  class="jeg-elementor-kit jkit-button  icon-position-before jeg_module_6_2_64e45de70c440" ><a href="#"  class="jkit-button-wrapper"  >Make Appointment</a></div>		</div>
-				</div>
-					</div>
-		</div> */}
 							</div>
 		</section>
 							</div>
