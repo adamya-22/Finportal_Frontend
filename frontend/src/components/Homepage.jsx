@@ -808,7 +808,7 @@ const Homepage = () => {
                   >
                     <div class="elementor-widget-container">
                       <div
-                        class="jeg-elementor-kit jkit-animated-text jeg_module_6_6_64e45de741463"
+                        class="jeg-elementor-kit jkit-animated-text jeg_module_6_6_64e45de741463 mob-cen"
                         data-style="rotating"
                         data-text="General Features,Personal tax,Inheritance Tax,Indirect Tax,Large Corporate,International Tax"
                         data-rotate="typing"
@@ -927,7 +927,7 @@ const Homepage = () => {
                     </div>
                   </div>
                   <div
-                    class="elementor-element elementor-element-2d3e2f6 elementor-widget elementor-widget-text-editor"
+                    class="elementor-element elementor-element-2d3e2f6 elementor-widget elementor-widget-text-editor mob-cen"
                     data-id="2d3e2f6"
                     data-element_type="widget"
                     data-widget_type="text-editor.default"
@@ -941,7 +941,7 @@ const Homepage = () => {
                     </div>
                   </div>
                   <div
-                    class="elementor-element elementor-element-00a81b9 elementor-align-left elementor-widget elementor-widget-button"
+                    class="elementor-element elementor-element-00a81b9 elementor-align-left elementor-widget elementor-widget-button mob-cen"
                     data-id="00a81b9"
                     data-element_type="widget"
                     data-widget_type="button.default"
@@ -1036,21 +1036,21 @@ const Homepage = () => {
                         data-element_type="column"
                       >
                         <div class="elementor-widget-wrap elementor-element-populated">
-                          <div
-                            class="elementor-element elementor-element-33feb89 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
-                            data-id="33feb89"
+                        <div
+                            class="elementor-element elementor-element-0e345b9 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="0e345b9"
                             data-element_type="widget"
                             data-settings='{"_animation":"fadeInUp","_animation_delay":"100"}'
                             data-widget_type="jkit_icon_box.default"
                           >
                             <div class="elementor-widget-container">
-                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_8_64e45de74d8cd">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_9_64e45de75014d">
                                 <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
                                       <i
                                         aria-hidden="true"
-                                        class="jki jki-document-light"
+                                        class="jki jki-money-3-light"
                                       ></i>
                                     </div>
                                   </div>
@@ -1134,27 +1134,25 @@ const Homepage = () => {
                             </div>
                           </div>
                           <div
-                            class="elementor-element elementor-element-6d0a6b4 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
-                            data-id="6d0a6b4"
+                            class="elementor-element elementor-element-2354a0a jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box"
+                            data-id="2354a0a"
                             data-element_type="widget"
                             data-settings='{"_animation":"fadeInUp","_animation_delay":"200"}'
                             data-widget_type="jkit_icon_box.default"
                           >
                             <div class="elementor-widget-container">
-                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_11_64e45de75569c">
-                                <div class="jkit-icon-box-wrapper hover-from-botto hp-wwpbm">
+                              <div class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_6_10_64e45de7530e0">
+                                <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
                                       <i
                                         aria-hidden="true"
-                                        class="jki jki-save-money-light"
+                                        class="jki jki-paper-plane-light"
                                       ></i>
                                     </div>
                                   </div>
                                   <div class="icon-box icon-box-body">
-                                    <h2 class="title">
-                                      Invested in Stocks & Mutual Funds
-                                    </h2>
+                                    <h2 class="title">Invested in Stocks & Mutual Funds</h2>
                                     <p class="icon-box-description">
                                       Simply Upload your P&L Report and we will
                                       auto-fill all your data and help you with
@@ -1573,7 +1571,7 @@ const Homepage = () => {
                                       </p>
                                     </span>
                                   </div>
-                                  <div class="icon-content">
+                                  <div class="icon-content cus-quote">
                                     <i
                                       aria-hidden="true"
                                       class="fas fa-quote-left"
@@ -1755,7 +1753,7 @@ const Homepage = () => {
                     data-widget_type="jkit_heading.default"
                   >
                     <div class="elementor-widget-container">
-                      <div class="jeg-elementor-kit jkit-heading  align-right align-tablet- align-mobile- jeg_module_6_26_64e45de790970">
+                      <div class="jeg-elementor-kit jkit-heading  align-right align-tablet- align-mobile- jeg_module_6_26_64e45de790970 mob-cen">
                         <h3 class="heading-section-subtitle  style-color">
                           TESTIMONIALS
                         </h3>

@@ -66,6 +66,12 @@
     .cont-sec {
         height: 1560px;
     }
+    .mob-cen{
+      text-align: center !important;
+    }
+    .cus-quote{
+      font-size: 30px !important;
+    }
   }
 
 .cont-form .hp-form form > input{
@@ -188,6 +194,7 @@ transform: translateY(150px);
     transform: translateX(0);
   }
 }
-  
+
+
   
   

@@ -18,14 +18,14 @@ const Footer = () => {
                 <a href="#" class="f13-font"><i class="fa-brands fa-pinterest-p"></i></a>
             </div>
         </div>
-        <div class="f1">
+        <div class="f1 f1-cen">
             <div class="f21"><h3>Information</h3></div>
             <div class="f22"><a href="#">About Us</a></div>
             {/* <div class="f22"><a href="#">Checkout</a></div> */}
             <div class="f22"><a href="#">Contact</a></div>
             <div class="f22"><a href="#">Serivius</a></div>
         </div>
-        <div class="f1">
+        <div class="f1 f1-cen">
             <div class="f21"><h3>My Account</h3></div>
             <div class="f22"><a href="#">My Account</a></div>
             <div class="f22"><a href="#">Contact</a></div>

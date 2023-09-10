@@ -6,10 +6,12 @@ footer{
     background-color: #184341!important;
 }
 .f12,.f22{
-    max-width: 25vw;
+    /* max-width: 25vw; */
     margin: 20px 0;
 }
-
+.f1-cen{
+    text-align: center;
+}
 .f22 a{
     color: black;
     font-weight: 600;
@@ -46,6 +48,7 @@ footer{
     padding: 7px 10px;
     background: #dee2e6;
     border: none;
+    border-radius: 0;
 }
 .f43 input:active{
     border: none;
