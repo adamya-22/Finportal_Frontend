@@ -21,11 +21,11 @@ footer{
     font-weight: 600;
 }
 .f22 a:hover{
-    color: #8167a9;
+    color: #FFB400;
     text-decoration: none;
 }
 .f12 a:hover{
-    color: #8167a9;
+    color: #FFB400;
     text-decoration: none;
 }
 
@@ -49,6 +49,7 @@ footer{
     background: #dee2e6;
     border: none;
     border-radius: 0;
+    margin: 0;
 }
 .f43 input:active{
     border: none;
@@ -91,6 +92,10 @@ footer{
 }
 .f12 a{
     color: white;
+}
+.f12 a i{
+    margin-right: 15px;
+    color: #FFB400;
 }
   .fade_rule {
     height: 1px;

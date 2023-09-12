@@ -22,7 +22,7 @@ const Navbar = () => {
   const [isSolid, setIsSolid] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 500) {
+      if (window.scrollY > 100) {
         setIsSolid(true);
       } else {
         setIsSolid(false);
@@ -117,22 +117,22 @@ const Navbar = () => {
         {/* <div class="jkit-menu-wrapper"> */}
         <div className={`jkit-menu-wrapper ${isMenuActive ? 'active' : ''}`}>
 			<div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-6132" class={`menu-item menu-item-type-post_type menu-item-object-page menu-item-6132`}>
-	<NavLink to='/'>Home</NavLink>
+	<NavLink to='/' onClick={handleCloseMenu}>Home</NavLink>
 	</li>
 <li id="menu-item-6132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6132">
-	<NavLink to='/itr'>Services</NavLink>
+	<NavLink to='/itr' onClick={handleCloseMenu}>Services</NavLink>
 	</li>
 <li id="menu-item-6131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6131">
-		<NavLink to='/contact'>Contact Us</NavLink>
+		<NavLink to='/contact' onClick={handleCloseMenu}>Contact Us</NavLink>
 	</li>
 <li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114">
 	<NavLink className="nav-dropdown-opcl" to='#' onClick={handleDropdownToggle}>Account</NavLink>
 <ul className={`sub-menu ${isDropdownOpen ? 'dropdown-open' : ''}`}>
 	<li id="menu-item-6133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6133">
-		<NavLink to='/signin'>Signin</NavLink>
+		<NavLink to='/signin' onClick={handleCloseMenu}>Signin</NavLink>
 	</li>
 	<li id="menu-item-6134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6134">
-	<NavLink to='/signup'>Signup</NavLink>
+	<NavLink to='/signup' onClick={handleCloseMenu}>Signup</NavLink>
 		</li>
 </ul>
 </li>

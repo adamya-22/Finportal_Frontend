@@ -57,5 +57,32 @@
     padding: 200px 0 200px 0;
     background-color: #184341; 
     /* opacity: 0.69; */
-    margin-top: -120px;
+    margin-top: -150px;
+    background-image: url(../components/Assets/5039684.jpg);
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-size: cover;
+  }
+
+  .signup-form-btn{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 764px) {
+    .signcont .form-group {
+        flex-direction: column;
+    }
+    .signcont input {
+        width: auto;
+    }
+    .signcont{
+        margin: 20px;
+    }
+    .signcont button {
+        /* width: 100%; */
+    }
+    .signup-form-btn{
+        flex-direction: column;
+    }
   }

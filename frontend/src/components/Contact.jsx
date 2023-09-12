@@ -1,6 +1,12 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import '../styles/homepage.css'
 const Contact = () => {
+
+	// form submit
+	function HPformSubmit() {
+        document.getElementById("HPform").submit();
+      }
   return (
     <>
       <div data-elementor-type="wp-page" data-elementor-id="5992" class="elementor elementor-5992">
@@ -51,7 +57,10 @@ const Contact = () => {
 						<input type="text" placeholder='Your Email'/>
 						<input type="text" placeholder='Your Contact'/>
 						<textarea name="" placeholder='Message' id="" cols="30" rows="5"></textarea>
-						<input type="submit" />
+						{/* <input type="submit" /> */}
+						<NavLink to="#" className="mc" onClick={HPformSubmit}>
+							<a class="learn-more">Submit</a>
+						</NavLink>
 						</form>
 						
 					</div>
@@ -75,7 +84,7 @@ const Contact = () => {
 								<div class="elementor-element elementor-element-51b2e56 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="51b2e56" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_5992_5_64e45dfe2984e" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-apartment1-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Denpasar</h2><p class="icon-box-description">Jl. Raya Puputan No. 142, Bali</p>
+                <h2 class="title">Surat</h2><p class="icon-box-description">Bhatar, Surat, Gujarat, India</p>
             </div>
             
             </div></div>		</div>
@@ -83,7 +92,7 @@ const Contact = () => {
 				<div class="elementor-element elementor-element-37d61ec jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="37d61ec" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_5992_6_64e45dfe2b9bf" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-phone-call-line"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Call Us</h2><p class="icon-box-description">(+62) 81 122 4341</p>
+                <h2 class="title">Call Us</h2><p class="icon-box-description">+91-9824685556</p>
             </div>
             
             </div></div>		</div>
@@ -92,18 +101,18 @@ const Contact = () => {
 		</div>
 				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7fa0972" data-id="7fa0972" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-6de5895 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="6de5895" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
+								{/* <div class="elementor-element elementor-element-6de5895 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="6de5895" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_5992_7_64e45dfe2dd6d" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-apartment-light"></i></div></div><div class="icon-box icon-box-body">
                 <h2 class="title">Kuta</h2><p class="icon-box-description">Jl. Sunset Road No. 185, Bali</p>
             </div>
             
             </div></div>		</div>
-				</div>
+				</div> */}
 				<div class="elementor-element elementor-element-93849c9 jkit-equal-height-disable elementor-invisible elementor-widget elementor-widget-jkit_icon_box" data-id="93849c9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:&quot;100&quot;}" data-widget_type="jkit_icon_box.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_5992_8_64e45dfe2fe43" ><div class="jkit-icon-box-wrapper hover-from-bottom"><div class="icon-box icon-box-header elementor-animation-"><div class="icon style-color"><i aria-hidden="true" class="jki jki-envelope1-light"></i></div></div><div class="icon-box icon-box-body">
-                <h2 class="title">Email Address</h2><p class="icon-box-description">pajax@mail.com</p>
+                <h2 class="title">Email Address</h2><p class="icon-box-description">info@finportalin.com</p>
             </div>
             
             </div></div>		</div>
@@ -116,25 +125,26 @@ const Contact = () => {
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-66cb842 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="66cb842" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-no">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10c15fa" data-id="10c15fa" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-4094486 elementor-widget elementor-widget-google_maps" data-id="4094486" data-element_type="widget" data-widget_type="google_maps.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-custom-embed">
-			<iframe loading="lazy"
-					src="https://maps.google.com/maps?q=Denpasar&amp;t=m&amp;z=18&amp;output=embed&amp;iwloc=near"
-					title="Denpasar"
-					aria-label="Denpasar"
-			></iframe>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-66cb842 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="66cb842" data-element_type="section">
+			<div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10c15fa" data-id="10c15fa" data-element_type="column">
+					<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4094486 elementor-widget elementor-widget-google_maps" data-id="4094486" data-element_type="widget" data-widget_type="google_maps.default">
+							<div class="elementor-widget-container">
+								<div class="elementor-custom-embed">
+									<iframe loading="lazy"
+											src="https://maps.google.com/maps?q=217-218%20RAJHANS%20OLYMPIA,%20NEAR%20RUPALI%20NAHER,%20Gujarat%20395007&amp;t=m&amp;z=18&amp;output=embed&amp;iwloc=near"
+											title="217-218 RAJHANS OLYMPIA, NEAR RUPALI NAHER, Gujarat 395007"
+											aria-label="217-218 RAJHANS OLYMPIA, NEAR RUPALI NAHER, Gujarat 395007"
+									></iframe>
+								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+
 							</div>
     </>
   )

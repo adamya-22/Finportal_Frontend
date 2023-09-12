@@ -130,8 +130,10 @@ const SignupPage = () => {
             required
           />  
         </div>
-        <button onClick={handleSubmit} type="submit">Sign Up</button>
-       <button className="google" > <FcGoogle  className="fc"size={40} />Sign IN with Google</button>
+        <div className="signup-form-btn">
+          <button onClick={handleSubmit} type="submit">Sign Up</button>
+          <button className="google" > <FcGoogle  className="fc"size={40} />Sign IN with Google</button>
+        </div>
       </form>
     </div>
     </div>

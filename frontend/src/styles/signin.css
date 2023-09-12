@@ -136,6 +136,7 @@
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(0 0 0);
     overflow: hidden;
+    margin: 20px;
   }
   
   .logincont .left-panel {
@@ -220,5 +221,16 @@
     padding: 200px 0 200px 0;
     background-color: #184341; 
     /* opacity: 0.69; */
-    margin-top: -120px;
+    margin-top: -150px;
+    background-image: url(../components/Assets/3408105.jpg);
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-size: cover;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .left-panel{
+      display: none !important;
+    }
   }
