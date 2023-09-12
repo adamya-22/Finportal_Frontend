@@ -36,7 +36,7 @@ const Service = () => {
                     <li>{cover}</li>
                   ))}
                 </ul>
-
+                <br />
                 <div className={classes.but}>
                   <button className={classes.greenButton}>BUY NOW</button>
                 </div>
