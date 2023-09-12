@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
+import '../styles/homepage.css'
 import logo from './Assets/logo_finportal-removebg-preview3.png'
 
 const Navbar = () => {
@@ -16,9 +17,33 @@ const Navbar = () => {
 	const handleDropdownToggle = () => {
 		setIsDropdownOpen(!isDropdownOpen);
 	  };
+	  
+
+  const [isSolid, setIsSolid] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 500) {
+        setIsSolid(true);
+      } else {
+        setIsSolid(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+//   for active link
+
+
   return (
     <>
-    <header id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+    <header className={`cust-nav ${isSolid ? 'cust-nav-solid' : ''}`} id="masthead" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
 			<p class="main-title bhf-hidden" itemprop="headline"><a href="https://templatekit.jegtheme.com/pajax" title="Pajax – Tax Advisor &amp; Financial Consulting Elementor Template Kit" rel="home">Pajax – Tax Advisor &amp; Financial Consulting Elementor Template Kit</a></p>
 					<div data-elementor-type="wp-post" data-elementor-id="12" class="elementor elementor-12">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-094e4e8 elementor-section-content-middle elementor-hidden-phone elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="094e4e8" data-element_type="section">
@@ -91,9 +116,9 @@ const Navbar = () => {
 			<div  class="jeg-elementor-kit jkit-nav-menu break-point-tablet submenu-click-title jeg_module_6_1_64e45de704ab4"  data-item-indicator="&lt;i aria-hidden=&quot;true&quot; class=&quot;fas fa-angle-down&quot;&gt;&lt;/i&gt;"><button class="jkit-hamburger-menu" onClick={handleOpenMenu}><i aria-hidden="true" class="fas fa-bars"></i></button>
         {/* <div class="jkit-menu-wrapper"> */}
         <div className={`jkit-menu-wrapper ${isMenuActive ? 'active' : ''}`}>
-			<div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-109">
-			<NavLink to='/'>Home</NavLink>
-		</li>
+			<div class="jkit-menu-container"><ul id="menu-menu-1" class="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top"><li id="menu-item-6132" class={`menu-item menu-item-type-post_type menu-item-object-page menu-item-6132`}>
+	<NavLink to='/'>Home</NavLink>
+	</li>
 <li id="menu-item-6132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6132">
 	<NavLink to='/itr'>Services</NavLink>
 	</li>

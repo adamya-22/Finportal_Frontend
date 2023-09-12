@@ -185,6 +185,10 @@ const Homepage = () => {
     };
   }, []);
 
+  // form submit
+      function HPformSubmit() {
+        document.getElementById("HPform").submit();
+      }
 
   return (
     <>
@@ -619,7 +623,7 @@ const Homepage = () => {
                               </div>
 
                               <div className="hp-form">
-                                <form action="">
+                                <form action="" id="HPform">
                                   <input type="text" placeholder="Your Name" />
                                   <input type="text" placeholder="Your Email" />
                                   <input
@@ -633,7 +637,10 @@ const Homepage = () => {
                                     cols="30"
                                     rows="5"
                                   ></textarea>
-                                  <input type="submit" />
+                                  {/* <input type="submit" /> */}
+                                  <NavLink to="#" className="mc" onClick={HPformSubmit}>
+                                    <a class="learn-more">Submit</a>
+                                  </NavLink>
                                 </form>
                               </div>
                             </div>

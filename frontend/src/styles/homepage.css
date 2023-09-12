@@ -208,3 +208,18 @@ transform: translateY(150px);
   background-image: url(../components/File/mpic.jpg) !important;
 }
   
+.cust-nav{
+  top: 0;
+  z-index: 100;
+  position: sticky;
+}
+
+.cust-nav-solid{
+  background-color: #184341;
+  transition: background-color 1s ease 0s;
+}
+
+.cust-nav-act{
+  color: #FFB400 !important;
+  font-weight: 700 !important;
+}
