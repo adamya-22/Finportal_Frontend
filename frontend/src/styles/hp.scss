@@ -21,10 +21,11 @@ $pink-shadow: transparent;
   font-size: inherit;
   font-family: inherit;
   &.learn-more {
+    font-size: smaller;
     font-weight: 600;
     color: $text !important;
     text-transform: uppercase;
-    padding: 1.25em 2em;
+    padding: 15px 20px;
     background: $light-pink;
     border: 2px solid $pink-border;
     border-radius: 0.75em;
@@ -62,4 +63,8 @@ $pink-shadow: transparent;
       }
     }
   }
+}
+
+.cust-btn-left{
+  justify-content: flex-start !important;
 }

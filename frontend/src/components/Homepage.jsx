@@ -264,7 +264,7 @@ const Homepage = () => {
                     data-id="e3fb443"
                     data-element_type="section"
                   >
-                    <div class="elementor-container elementor-column-gap-no">
+                    <div class="elementor-container elementor-column-gap-no cust-btn-left">
                       <div
                         class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-83a15c8"
                         data-id="83a15c8"
@@ -659,7 +659,7 @@ const Homepage = () => {
             data-element_type="section"
           >
             <div
-              class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading"
+              class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading cust-sec-mar"
               data-id="833e261"
               data-element_type="widget"
               data-settings='{"_animation":"fadeInUp"}'
@@ -1011,7 +1011,7 @@ const Homepage = () => {
               >
                 <div class="elementor-widget-wrap elementor-element-populated">
                   <div
-                    class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading"
+                    class="elementor-element elementor-element-833e261 elementor-invisible elementor-widget elementor-widget-jkit_heading cust-sec-mar"
                     data-id="833e261"
                     data-element_type="widget"
                     data-settings='{"_animation":"fadeInUp"}'
@@ -2037,7 +2037,7 @@ const Homepage = () => {
                   >
                     <div class="elementor-widget-container">
                       <div class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_27_64e45de7948fa">
-                        <div class="heading-section-title  display-inline-block">
+                        <div class="heading-section-title  display-inline-block cust-partner-mar">
                           <h2 class="heading-title">Our Partner</h2>
                         </div>
                         <div class="heading-section-separator">
