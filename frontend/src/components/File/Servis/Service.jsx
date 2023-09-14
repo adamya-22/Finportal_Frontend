@@ -47,25 +47,26 @@ const Service = () => {
         ))}
       </div>
       <h1 className={classes.titleCenter}>All Plan Include</h1>
-
-      <ul className={classes.hori}>
-        <li>
-          {" "}
-          <AiOutlineCheckCircle /> Dedicated expert & account manager
-        </li>
-        <li>
-          {" "}
-          <AiOutlineCheckCircle /> Data review & correction by expert
-        </li>
-        <li>
-          {" "}
-          <AiOutlineCheckCircle /> Post return filing support
-        </li>
-        <li>
-          {" "}
-          <AiOutlineCheckCircle /> Suggestions on best tax saving options
-        </li>
-      </ul>
+      <center>
+        <ul className={classes.hori}>
+          <li>
+            {" "}
+            <AiOutlineCheckCircle /> Dedicated expert & account manager
+          </li>
+          <li>
+            {" "}
+            <AiOutlineCheckCircle /> Data review & correction by expert
+          </li>
+          <li>
+            {" "}
+            <AiOutlineCheckCircle /> Post return filing support
+          </li>
+          <li>
+            {" "}
+            <AiOutlineCheckCircle /> Suggestions on best tax saving options
+          </li>
+        </ul>
+      </center>
     </>
   );
 };

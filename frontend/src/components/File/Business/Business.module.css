@@ -89,6 +89,7 @@
 
 .strip h1 {
     color: #184341;
+    font-size: 3rem;
 }
 
 .title {
@@ -111,7 +112,25 @@
 
 .hori li {
     font-weight: 200;
-    font-size: 13px;
+    font-size: 1rem;
+}
+
+/* Media query for mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+    .hori {
+        padding-left: 10px;
+        flex-direction: column;
+        /* Change to a vertical layout */
+        text-align: left;
+        /* Reset text alignment for vertical layout */
+        gap: 10px;
+        /* Adjust the gap for mobile layout */
+    }
+
+    .hori li {
+        font-size: 16px;
+        /* Increase font size for better readability on mobile */
+    }
 }
 
 .titleCenter {
