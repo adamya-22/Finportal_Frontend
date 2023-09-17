@@ -99,7 +99,6 @@ hr {
 /* styles.css */
 .hori {
     display: flex;
-
     justify-content: center;
     text-align: center;
     list-style: none;
@@ -109,26 +108,7 @@ hr {
 
 .hori li {
     font-weight: 200;
-    font-size: 1rem;
-}
-
-/* Media query for mobile devices (max-width: 768px) */
-@media (max-width: 768px) {
-    .hori {
-
-        padding-left: 10px;
-        flex-direction: column;
-        /* Change to a vertical layout */
-        text-align: left;
-        /* Reset text alignment for vertical layout */
-        gap: 10px;
-        /* Adjust the gap for mobile layout */
-    }
-
-    .hori li {
-        font-size: 16px;
-        /* Increase font size for better readability on mobile */
-    }
+    font-size: 13px;
 }
 
 .titleCenter {

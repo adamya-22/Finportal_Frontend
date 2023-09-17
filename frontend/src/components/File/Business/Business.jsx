@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./Business.module.css";
-import Plan from "./Plan";
+
+import ServiceCard from "../../ServiceCard";
+import serviceData from "./ServiceCard";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 const Business = () => {
   return (
@@ -10,38 +12,17 @@ const Business = () => {
       </div>
       <hr />
       <div className={classes.container}>
-        {Plan.map((plan) => (
-          <>
-            <div className={classes.card}>
-              <div className={classes.top}>
-                <img src="https://picsum.photos/50" alt="" />
-                <h3 className={classes.title}>
-                  <u> {plan.title} </u>
-                </h3>
-                <h4 className={classes.title}>
-                  ₹999
-                  <p>
-                    <s>₹2499</s>
-                  </p>
-                </h4>
-                <div className={classes.content}>
-                  {" "}
-                  <strong> Cover income from </strong>
-                </div>
-                <ul>
-                  {plan.covers.map((cover) => (
-                    <li>{cover}</li>
-                  ))}
-                </ul>
-
-                <div className={classes.but}>
-                  <button className={classes.greenButton}>BUY NOW</button>
-                </div>
-                <h3 className={classes.title}>Know More </h3>
-              </div>
-            </div>
-          </>
-        ))}
+        {serviceData.map((data) => {
+          return (
+            <ServiceCard
+              poster={data.poster}
+              title={data.title}
+              discountedPrice={data.discountedPrice}
+              actualPrice={data.actualPrice}
+              incomeCovers={data.incomeCovers}
+            />
+          );
+        })}
       </div>
       <h1 className={classes.titleCenter}>All Plan Include</h1>
 
