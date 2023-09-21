@@ -1,6 +1,13 @@
 import React from "react";
 import classes from "./Benifits.module.css";
-import BenifitsData from "./BenifitsData";
+// import BenifitsData from "./BenifitsData";
+import Bond from "./Images/icons8-bonds-50.png";
+import Fees from "./Images/icons8-fees-64.png";
+import Loss from "./Images/icons8-loss-50.png";
+import Refund from "./Images/icons8-refund-50.png";
+import Tax from "./Images/icons8-tax-50.png";
+import Visa from "./Images/icons8-visa-50.png";
+import Doc from "./Images/icons8-documentation-67.png";
 const Benifits = () => {
   return (
     <div>
@@ -101,10 +108,7 @@ const Benifits = () => {
                                 <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
-                                      <i
-                                        aria-hidden="true"
-                                        class="jki jki-money-3-light"
-                                      ></i>
+                                      <img src={Refund} alt="" />
                                     </div>
                                   </div>
                                   <div class="icon-box icon-box-body">
@@ -130,10 +134,7 @@ const Benifits = () => {
                                 <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
-                                      <i
-                                        aria-hidden="true"
-                                        class="jki jki-money-3-light"
-                                      ></i>
+                                      <img src={Bond} alt="" />
                                     </div>
                                   </div>
                                   <div class="icon-box icon-box-body">
@@ -167,10 +168,7 @@ const Benifits = () => {
                                 <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
-                                      <i
-                                        aria-hidden="true"
-                                        class="jki jki-paper-plane-light"
-                                      ></i>
+                                      <img src={Doc} alt="" />
                                     </div>
                                   </div>
                                   <div class="icon-box icon-box-body">
@@ -198,10 +196,7 @@ const Benifits = () => {
                                 <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
-                                      <i
-                                        aria-hidden="true"
-                                        class="jki jki-paper-plane-light"
-                                      ></i>
+                                      <img src={Loss} alt="" />
                                     </div>
                                   </div>
                                   <div class="icon-box icon-box-body">
@@ -237,10 +232,7 @@ const Benifits = () => {
                                 <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
-                                      <i
-                                        aria-hidden="true"
-                                        class="jki jki-chart2-light"
-                                      ></i>
+                                      <img src={Tax} alt="" />
                                     </div>
                                   </div>
                                   <div class="icon-box icon-box-body">
@@ -266,10 +258,7 @@ const Benifits = () => {
                                 <div class="jkit-icon-box-wrapper hover-from-bottom hp-wwpb">
                                   <div class="icon-box icon-box-header elementor-animation-">
                                     <div class="icon style-color">
-                                      <i
-                                        aria-hidden="true"
-                                        class="jki jki-Document-Search-light"
-                                      ></i>
+                                      <img src={Visa} alt="" />
                                     </div>
                                   </div>
                                   <div class="icon-box icon-box-body">
