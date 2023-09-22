@@ -112,8 +112,8 @@
 }
 
 .hori li {
-    font-weight: 200;
-    font-size: 13px;
+    font-weight: 300;
+    font-size: 1.125rem;
     gap: 4px;
     display: flex;
     align-items: center;
