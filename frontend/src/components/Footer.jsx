@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/footer.css'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -16,23 +17,23 @@ const Footer = () => {
             <div class="f12"><a href="#"><i class="fa-solid fa-phone"></i>+91-9824685556</a></div>
             <div class="f12"><a href="#"><i class="fa-solid fa-envelope"></i>info@finportalin.com</a></div>
             <div class="f13">
-                <a href="#" class="f13-font"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#" class="f13-font"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" class="f13-font"><i class="fa-brands fa-square-twitter"></i></a>
-                <a href="#" class="f13-font"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="https://www.facebook.com/finsightventure/" class="f13-font"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://instagram.com/finportal_in" class="f13-font"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/finportal_in" class="f13-font"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/finportalin/" class="f13-font"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
         <div class="f1 f1-cen">
             <div class="f21"><h3>Information</h3></div>
             <div class="f22"><a href="#">About Us</a></div>
-            <div class="f22"><a href="#">Contact Us</a></div>
-            <div class="f22"><a href="#">Plans</a></div>
+            <div class="f22"><NavLink to="/contact">Contact Us</NavLink></div>
+            <div class="f22"><NavLink to="/itr">Plans</NavLink></div>
         </div>
         <div class="f1 f1-cen">
             <div class="f21"><h3>My Account</h3></div>
             {/* <div class="f22"><a href="#">My Account</a></div> */}
-            <div class="f22"><a href="#">Sign Up</a></div>
-            <div class="f22"><a href="#">Sign In</a></div>
+            <div class="f22"><NavLink to="/signin">Signin</NavLink></div>
+            <div class="f22"><NavLink to="/signup">Signup</NavLink></div>
         </div>
         <div class="f1">
             <div class="f21"><h3>Join our Newsletter Now</h3></div>

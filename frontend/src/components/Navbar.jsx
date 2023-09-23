@@ -53,13 +53,13 @@ const Navbar = () => {
 								<div class="elementor-element elementor-element-50655ce jkit-social-shape shape-none elementor-widget elementor-widget-jkit_social_share" data-id="50655ce" data-element_type="widget" data-widget_type="jkit_social_share.default">
 				<div class="elementor-widget-container">
 			<div  class="jeg-elementor-kit jkit-social-share jeg_module_6__64e45de6e5bd1" ><ul class="social-share-list"><li class="elementor-repeater-item-5296611" data-social="facebook">
-				<a class="facebook social-icon"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+				<a href='https://www.facebook.com/finsightventure/' class="facebook social-icon"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
 			</li><li class="elementor-repeater-item-bb89b77" data-social="twitter">
-				<a class="twitter social-icon"><i aria-hidden="true" class="fab fa-twitter"></i></a>
+				<a href='https://twitter.com/finportal_in' class="twitter social-icon"><i aria-hidden="true" class="fab fa-twitter"></i></a>
 			</li><li class="elementor-repeater-item-02fa9fd" data-social="pinterest">
-				<a class="pinterest social-icon"><i aria-hidden="true" class="fab fa-pinterest-p"></i></a>
+				<a href='https://www.linkedin.com/company/finportalin/' class="pinterest social-icon"><i class="fa-brands fa-linkedin"></i></a>
 			</li><li class="elementor-repeater-item-b2dad61" data-social="linkedin">
-				<a class="linkedin social-icon"><i aria-hidden="true" class="fab fa-instagram"></i></a>
+				<a href='https://instagram.com/finportal_in' class="linkedin social-icon"><i aria-hidden="true" class="fab fa-instagram"></i></a>
 			</li></ul></div>		</div>
 				</div>
 					</div>

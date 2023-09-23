@@ -1019,9 +1019,9 @@ const Homepage = () => {
                   >
                     <div class="elementor-widget-container">
                       <div class="jeg-elementor-kit jkit-heading  align-center align-tablet- align-mobile- jeg_module_6_7_64e45de7489fd">
-                        <h3 class="heading-section-subtitle  style-color">
+                        {/* <h3 class="heading-section-subtitle  style-color">
                           OUR SERVICES
-                        </h3>
+                        </h3> */}
                         <div class="heading-section-title  display-inline-block">
                           <h2 class="heading-title">What We Provide</h2>
                         </div>
