@@ -47,7 +47,7 @@
 }
 
 .benifits {
-    font-size: 50px;
+    font-size: 3rem;
     text-align: center;
     color: #184341;
 }
@@ -80,8 +80,7 @@
 }
 
 hr {
-    width: 40%;
-    /* color: #ffb400; */
+    width: 10rem;
     border: 2px solid #ffb400;
 }
 
@@ -99,4 +98,8 @@ hr {
     margin-top: 10px;
     font-weight: 200;
     color: #666;
+}
+
+.elementor-element-894dac4 {
+    margin-top: -50px;
 }

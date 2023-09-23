@@ -102,27 +102,26 @@
 
 .hori {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     list-style: none;
     gap: 20px;
     padding: 10px;
+    margin: 2rem;
 }
 
 .hori li {
-    font-weight: 200;
-    font-size: 13px;
+    font-weight: 300;
+    font-size: 1.125rem;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .titleCenter {
     padding-top: 30px;
     text-align: center;
     color: #184341;
-    /* padding: 50px; */
-}
-
-hr {
-    width: 40%;
-    /* color: #ffb400; */
-    border: 2px solid #ffb400;
 }
